@@ -2,7 +2,7 @@ package NikitaVecherski.lesson3;
 
 import java.util.Scanner;
 
-public class Consruction3 {
+public class Construction3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите четное или нечетное число");
