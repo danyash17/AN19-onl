@@ -1,7 +1,6 @@
 package NikitaVecherski.lesson3;
 
 import java.util.Scanner;
-import java.util.Spliterator;
 
 public class Construction1 {
     public static void main(String[] args) {
