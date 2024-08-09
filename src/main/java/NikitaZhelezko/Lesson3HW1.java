@@ -1,5 +1,5 @@
 package NikitaZhelezko;
-//lesson 3 Homework 1
+//lesson 3 Homework 1 ex 1 upravl konstr
 
 import java.util.Scanner;
 
