@@ -9,9 +9,6 @@ public class Lsson3HW2 {
     if (num % 2 == 0) {
         System.out.println("Число чётное");
     }
-    else if (num == 0){
-        System.out.println("Введён 0");
-    }
     else {
         System.out.println("Нечётное");
     }
