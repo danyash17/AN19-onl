@@ -32,8 +32,9 @@ public class Lesson3HW1 {
                     season = "Осень";
                     break;
                 default:
-                    season = "Неверно указан месяц";
+                    season = "неверно указан месяц";
                     break;
             }
+        System.out.println("Пора года: "+season);
     }
 }
