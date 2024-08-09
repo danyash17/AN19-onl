@@ -3,6 +3,7 @@ package NikitaZhelezko;
 
 public class Lesson3HW1 {
     public static void main(String[] args){
+        System.out.println("Unit 1");
 
     }
 }
