@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2128709a-fcee-447a-b714-4559717358ad" name="Changes" comment="feat: add README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/daniil_s/Sandbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +21,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="80696d7112c0b5403620fdc71cb19d2620111e68" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Vlad-Bovtruchenok"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/danyash17/AN19-onl.git",
+    "accountId": "ef28d0ec-a8d9-4a95-8934-327bd396d3dc"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,23 +52,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Sandbox.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Sandbox.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "VladBovtruchenok",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/bovta/IdeaProjects/AN19-onl/src/main/java/Vladislav"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Sandbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="daniil_s.Sandbox" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bovta\IdeaProjects\AN19-onl\src\main\java\Vladislav" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.cycles3">
+    <configuration name="conditionals1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vladislav.lesson3.conditionals1" />
       <module name="AN19-onl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="daniil_s.*" />
+          <option name="PATTERN" value="Vladislav.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="conditionals2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vladislav.lesson3.conditionals2" />
+      <module name="AN19-onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Vladislav.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="conditionals3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vladislav.lesson3.conditionals3" />
+      <module name="AN19-onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Vladislav.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cycles1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vladislav.lesson3.cycles1" />
+      <module name="AN19-onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Vladislav.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cycles3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vladislav.lesson3.cycles3" />
+      <module name="AN19-onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Vladislav.lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,7 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sandbox" />
+        <item itemvalue="Application.cycles3" />
+        <item itemvalue="Application.cycles1" />
+        <item itemvalue="Application.conditionals3" />
+        <item itemvalue="Application.conditionals2" />
+        <item itemvalue="Application.conditionals1" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +177,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="VladBovtruchenok" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
