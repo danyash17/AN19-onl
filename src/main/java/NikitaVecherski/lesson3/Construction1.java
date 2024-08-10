@@ -2,6 +2,9 @@ package NikitaVecherski.lesson3;
 
 import java.util.Scanner;
 
+//1. Написать программу для вывода названия поры года по номеру
+//месяца
+
 public class Construction1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
