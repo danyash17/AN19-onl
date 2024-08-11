@@ -13,17 +13,17 @@ public class Optional2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите сумму вклада");
-        String moneyIn = scanner.nextLine();
-        float mIn = Integer.parseInt(moneyIn);
+        float moneyIn = scanner.nextFloat();
+        float moneyInInitial = moneyIn;
 
         Scanner scanner1 = new Scanner(System.in);
         System.out.println("Введите кол-во месяцев вклада");
         String months = scanner1.nextLine();
         int m = Integer.parseInt(months);
         for (int i = 0; i<m; i++){
-        mIn = mIn * 1.07f;
+        moneyIn = moneyIn * 1.07f;
         }
-        System.out.println("Ваша прибыль на выходе составила "+ mIn);
+        System.out.println("Ваша прибыль на выходе составила "+ (moneyIn - moneyInInitial));
 
     }
 }
