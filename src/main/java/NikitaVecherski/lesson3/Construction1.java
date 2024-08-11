@@ -11,77 +11,28 @@ public class Construction1 {
         System.out.println("Введите номер месяца");
         String month = scanner.nextLine();
         switch (month){
-            case "1": {
-                System.out.println("Ваш месяц - Январь");
+
+            case "1", "2", "12" : {
+                System.out.println("Ваша пора года - Зима"); }
                 break;
+
+                case "3","4","5" : {
+                    System.out.println("Ваша пора года - Весна");
+                }
+                break;
+
+                case "6","7","8" : {
+                    System.out.println("Ваша пора года - Лето");
+                }
+                break;
+
+                case "9","10","11" : {
+                System.out.println("Ваша пора года - Осень");
+                break;
+
             }
         }
-        switch (month){
-            case "2": {
-                System.out.println("Ваш месяц - Февраль");
-                break;
-            }
-        }
-        switch (month){
-            case "3": {
-                System.out.println("Ваш месяц - Март");
-                break;
-            }
-        }
-        switch (month){
-            case "4": {
-                System.out.println("Ваш месяц - Апрель");
-                break;
-            }
-        }
-        switch (month){
-            case "5": {
-                System.out.println("Ваш месяц - Май");
-                break;
-            }
-        }
-        switch (month){
-            case "6": {
-                System.out.println("Ваш месяц - Июнь");
-                break;
-            }
-        }
-        switch (month){
-            case "7": {
-                System.out.println("Ваш месяц - Июль");
-                break;
-            }
-        }
-        switch (month){
-            case "8": {
-                System.out.println("Ваш месяц - Август");
-                break;
-            }
-        }
-        switch (month){
-            case "9": {
-                System.out.println("Ваш месяц - Сентябрь");
-                break;
-            }
-        }
-        switch (month){
-            case "10": {
-                System.out.println("Ваш месяц - Октябрь");
-                break;
-            }
-        }
-        switch (month){
-            case "11": {
-                System.out.println("Ваш месяц - Ноябрь");
-                break;
-            }
-        }
-        switch (month){
-            case "12": {
-                System.out.println("Ваш месяц - Декабрь");
-                break;
-            }
-        }
+
 
 
     }
