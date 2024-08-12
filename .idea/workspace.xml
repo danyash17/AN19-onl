@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2128709a-fcee-447a-b714-4559717358ad" name="Changes" comment="feat: homework lesson 4 part 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/artem/homework/homework3_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/artem/homework/homework3_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/artem/homework/homework3_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/artem/homework/homework3_13.java" afterDir="false" />
+    <list default="true" id="2128709a-fcee-447a-b714-4559717358ad" name="Changes" comment="feat: amend workspace.xml">
+      <change beforePath="$PROJECT_DIR$/src/main/java/daniil_s/Sandbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daniil_s/Sandbox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +175,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -202,31 +207,47 @@
       <option name="project" value="LOCAL" />
       <updated>1722770467852</updated>
     </task>
-    <task id="LOCAL-00003" summary="feat: add lesson 3">
+    <task id="LOCAL-00003" summary="feat: add teachers dir">
       <option name="closed" value="true" />
-      <created>1722874822305</created>
+      <created>1722771152791</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1722874822305</updated>
+      <updated>1722771152791</updated>
     </task>
-    <task id="LOCAL-00004" summary="feat: homework lesson 3">
+    <task id="LOCAL-00004" summary="feat: add encodings.xml">
       <option name="closed" value="true" />
-      <created>1723384102511</created>
+      <created>1722771168109</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1723384102511</updated>
+      <updated>1722771168109</updated>
     </task>
-    <task id="LOCAL-00005" summary="feat: homework lesson 4 part 1">
+    <task id="LOCAL-00005" summary="feat: add compiler.xml">
       <option name="closed" value="true" />
-      <created>1723402449179</created>
+      <created>1722771249080</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1723402449179</updated>
+      <updated>1722771249080</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: add jarRepositories.xml">
+      <option name="closed" value="true" />
+      <created>1722771271533</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722771271533</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: amend workspace.xml">
+      <option name="closed" value="true" />
+      <created>1722771562542</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722771562543</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,9 +276,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init: setup project workspace" />
     <MESSAGE value="feat: add README.md" />
-    <MESSAGE value="feat: add lesson 3" />
-    <MESSAGE value="feat: homework lesson 3" />
-    <MESSAGE value="feat: homework lesson 4 part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: homework lesson 4 part 1" />
+    <MESSAGE value="feat: add teachers dir" />
+    <MESSAGE value="feat: add encodings.xml" />
+    <MESSAGE value="feat: add compiler.xml" />
+    <MESSAGE value="feat: add jarRepositories.xml" />
+    <MESSAGE value="feat: amend workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: amend workspace.xml" />
   </component>
 </project>
