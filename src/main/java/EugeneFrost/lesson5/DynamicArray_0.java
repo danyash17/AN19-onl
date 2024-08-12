@@ -18,12 +18,12 @@ public class DynamicArray_0 {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 for (int k = 0; k < 3; k++) {
-                    arr [i][j][k] = (int)(Math.random()*10);
+                    arr[i][j][k] = (int) (Math.random() * 10);
                 }
             }
         }
 
-        System.out.println("Исходный массив: "+Arrays.deepToString(arr));
+        System.out.println("Исходный массив: " + Arrays.deepToString(arr));
 
         System.out.print("Введите чило: ");
         int n = sc.nextInt();
@@ -31,10 +31,10 @@ public class DynamicArray_0 {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 for (int k = 0; k < 3; k++) {
-                    arr [i][j][k] += 3;
+                    arr[i][j][k] += 3;
                 }
             }
         }
-        System.out.print("Массив после прибавления: "+Arrays.deepToString(arr));
+        System.out.print("Массив после прибавления: " + Arrays.deepToString(arr));
     }
 }
