@@ -15,20 +15,20 @@ public class ExtraDynamicArray_5 {
             }
         }
 
-        System.out.println("Исходный массив: "+ Arrays.deepToString(matrix));
+        System.out.println("Исходный массив: " + Arrays.deepToString(matrix));
 
 //        for (int i = 0; i < 5; i++) {
 //            Arrays.sort(matrix[i]);
 //        }
 
         for (int i = 0; i < 5; i++) {
-            for (int j=0; j < 5; j++) {
+            for (int j = 0; j < 5; j++) {
                 int count = matrix[i][j];
-                int k = j -1;
+                int k = j - 1;
 
-                while(k >=0&& matrix[i][k]> count) {
-                    matrix[i][k + 1]=matrix[i][k];
-                    k=k- 1;
+                while (k >= 0 && matrix[i][k] > count) {
+                    matrix[i][k + 1] = matrix[i][k];
+                    k = k - 1;
                 }
 
                 matrix[i][k + 1] = count;
