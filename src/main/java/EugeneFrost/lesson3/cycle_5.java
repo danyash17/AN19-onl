@@ -1,5 +1,8 @@
 package EugeneFrost.lesson3;
 
+//**task**
+//Вывести 10 первых чисел последовательности 0, -5,-10,-15..
+
 public class cycle_5 {
     public static void main(String[] args) {
         int i=0;

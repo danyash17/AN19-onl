@@ -2,6 +2,10 @@ package EugeneFrost.lesson3;
 
 import java.util.Scanner;
 
+//**task**
+//По введенному номеру определить цвет радуги
+// (1 – красный, 4 – зеленый и т. д.).
+
 public class cs_5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

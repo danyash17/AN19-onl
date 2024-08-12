@@ -1,5 +1,9 @@
 package EugeneFrost.lesson3;
 
+//**task**
+//Напишите программу, которая выводит на консоль таблицу
+//умножения.
+
 public class extra_task_3 {
     public static void main(String[] args) {
         int rows = 10;

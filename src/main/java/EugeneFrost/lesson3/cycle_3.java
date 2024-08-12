@@ -2,6 +2,12 @@ package EugeneFrost.lesson3;
 
 import java.util.Scanner;
 
+//**task**
+//Напишите программу, где пользователь вводит любое целое
+//положительное число. А программа суммирует все числа от 1 до
+//введенного пользователем числа.
+//Для ввода числа воспользуйтесь классом Scanner.
+
 public class cycle_3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

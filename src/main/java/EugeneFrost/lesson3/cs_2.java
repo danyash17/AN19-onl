@@ -2,6 +2,11 @@ package EugeneFrost.lesson3;
 
 import java.util.Scanner;
 
+//**task**
+//Написать программу для вывода названия поры года по номеру
+//месяца.
+//При решении используйте оператор if-else-if.
+
 public class cs_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -23,4 +28,5 @@ public class cs_2 {
 
     }
 }
+
 
