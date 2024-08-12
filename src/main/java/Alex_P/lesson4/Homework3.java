@@ -11,9 +11,8 @@ public class Homework3 {
             myArray[i] = (int) (Math.random()*100);
         }
         System.out.println(Arrays.toString(myArray));
-        for (int i = 0; i < massLength; i++) {
+        for (int i = 0; i < massLength; i += 2) {
             myArray[i] = 0;
-            ++i;
         }
         System.out.println(Arrays.toString(myArray));
     }

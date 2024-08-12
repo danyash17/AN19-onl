@@ -11,7 +11,7 @@ public class Homework3 {
             System.out.println("Холодно");
         else if (tempNumber <= -5)
             System.out.println("Нормально");
-        else if (tempNumber > -5)
+        else
             System.out.println("Тепло");
     }
 }

@@ -8,10 +8,10 @@ public class Homework5 {
         System.out.print("Enter number ");
         int intNumber = input.nextInt();
         int i;
-        int Sum = 0;
+        int sum = 0;
         for (i = 0; i <= intNumber; i++){
-            Sum += i;
+            sum += i;
         }
-        System.out.println(Sum);
+        System.out.println(sum);
     }
 }

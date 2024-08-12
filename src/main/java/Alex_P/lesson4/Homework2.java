@@ -17,12 +17,15 @@ public class Homework2 {
         System.out.println(Arrays.toString(firstArray));
         System.out.println(Arrays.toString(secondArray));
         String myText;
-        if (sumFirstArray/massLength > sumSecondArray/massLength)
+        if (sumFirstArray/massLength > sumSecondArray/massLength) {
             myText = "Средее арифметическое элементов для первого массива больше чем для второго";
-        else if (sumFirstArray/massLength < sumSecondArray/massLength)
+        }
+        else if (sumFirstArray/massLength < sumSecondArray/massLength) {
             myText = "Средее арифметическое элементов для первого массива меньше чем для второго";
-        else
+        }
+        else {
             myText = "Средее арифметическое элементов для обоих массивов одинаковое";
+        }
         System.out.println(myText);
     }
 }

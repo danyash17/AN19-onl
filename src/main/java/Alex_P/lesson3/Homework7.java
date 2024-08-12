@@ -4,15 +4,21 @@ public class Homework7 {
     public static void main(String[] args) {
         int firstNumber = 0;
         int secondNumber = 1;
-        int i;
-        int startNumber = 10;
-        System.out.println(0);
-        System.out.println(1);
-        for (i = 2; i < startNumber; i++){
-            int Sum = firstNumber + secondNumber;
-            System.out.println(Sum);
-            firstNumber = secondNumber;
-            secondNumber = Sum;
+        int startNumber = 11;
+        int sumFib = 0;
+        for (int i = 0; i < startNumber; i++){
+            if (i == 0){
+                System.out.println(i);
+            }
+            else if (i == 1){
+                System.out.println(i);
+            }
+            else {
+                sumFib = firstNumber + secondNumber;
+                System.out.println(sumFib);
+                firstNumber = secondNumber;
+                secondNumber = sumFib;
+            }
         }
     }
 }
