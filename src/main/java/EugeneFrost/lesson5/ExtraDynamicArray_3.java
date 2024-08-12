@@ -12,18 +12,18 @@ public class ExtraDynamicArray_3 {
         int sum = 0;
 
         for (int i = 0; i < array.length; i++) {
-            for (int j =0;j <array[i].length; j++) {
-                array[i][j] =(int) (Math.random() * 15);
+            for (int j = 0; j < array[i].length; j++) {
+                array[i][j] = (int) (Math.random() * 15);
             }
         }
 
-        System.out.println("Исходный массив: "+ Arrays.deepToString(array));
+        System.out.println("Исходный массив: " + Arrays.deepToString(array));
 
-        for (int i =0;i < array.length; i++) {
-            for (int j = 0;j < array[i].length;j++) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
                 sum += array[i][j];
             }
         }
-        System.out.print("Сумма всех элементов массива: "+sum);
+        System.out.print("Сумма всех элементов массива: " + sum);
     }
 }
