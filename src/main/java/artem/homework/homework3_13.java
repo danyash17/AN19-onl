@@ -6,6 +6,7 @@ public class homework3_13 {
             for (int k = 1; k < 10; k++) {
                 System.out.print(k * i + "  ");
             }
-        }   System.out.println("");
+            System.out.println("");
+        }
     }
 }

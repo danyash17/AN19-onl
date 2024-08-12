@@ -5,13 +5,13 @@ package artem.homework;
 public class homework3_12 {
     public static void main(String[] args) {
         int n = 11;
-        int a = -1;
-        int b = 1;
+        int previousFiboNum = -1;
+        int nextFiboNum = 1;
         for (int i = 1; i <= n ; i++) {
-            int next = a + b;
-            a = b;
-            b = next;
-            System.out.println(b);
+            int next = previousFiboNum + nextFiboNum;
+            previousFiboNum = nextFiboNum;
+            nextFiboNum = next;
+            System.out.println(nextFiboNum);
         }
     }
 }

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2128709a-fcee-447a-b714-4559717358ad" name="Changes" comment="feat: homework lesson 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/artem/homework/homework4_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/artem/homework/homework4_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/artem/homework/homework4_3.java" afterDir="false" />
+    <list default="true" id="2128709a-fcee-447a-b714-4559717358ad" name="Changes" comment="feat: homework lesson 4 part 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/artem/homework/homework3_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/artem/homework/homework3_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/artem/homework/homework3_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/artem/homework/homework3_13.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.homework4_3">
+  <component name="RunManager" selected="Application.homework3_13">
     <configuration name="Sandbox" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="daniil_s.Sandbox" />
       <module name="AN19-onl" />
@@ -170,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homework3_13" />
+        <item itemvalue="Application.homework3_12" />
         <item itemvalue="Application.homework4_3" />
         <item itemvalue="Application.homework4_2" />
         <item itemvalue="Application.homework4_1" />
-        <item itemvalue="Application.homework3_13" />
-        <item itemvalue="Application.homework3_12" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723384102511</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: homework lesson 4 part 1">
+      <option name="closed" value="true" />
+      <created>1723402449179</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723402449179</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +257,7 @@
     <MESSAGE value="feat: add README.md" />
     <MESSAGE value="feat: add lesson 3" />
     <MESSAGE value="feat: homework lesson 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: homework lesson 3" />
+    <MESSAGE value="feat: homework lesson 4 part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: homework lesson 4 part 1" />
   </component>
 </project>
