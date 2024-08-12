@@ -28,7 +28,7 @@ public class Lesson4Ex2 {
         double average2 = sum2 / SecondMassive.length;
         System.out.println("Среднее арефмитическое первого массива = " +average1);
         System.out.println("Среднее арефмитическое второго массива = " +average2);
-        if (average1 > average1){
+        if (average1 > average2){
             System.out.println("Среднее арефмитическое первого массива больше");
         } else if (average2 > average1) {
             System.out.println("Среднее арефмитическое второго массива больше");
