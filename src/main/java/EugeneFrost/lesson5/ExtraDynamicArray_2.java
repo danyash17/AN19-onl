@@ -13,15 +13,15 @@ import java.util.Arrays;
 public class ExtraDynamicArray_2 {
     public static void main(String[] args) {
         int[][] firstArray = {
-                {1,0,0,0},
-                {0,1,0,0},
-                {0,0,0,0}
+                {1, 0, 0, 0},
+                {0, 1, 0, 0},
+                {0, 0, 0, 0}
         };
         int[][] secondArray = {
-                {1,2,3},
-                {1,1,1},
-                {0,0,0},
-                {2,1,0}
+                {1, 2, 3},
+                {1, 1, 1},
+                {0, 0, 0},
+                {2, 1, 0}
         };
 
         int[][] multiplicationArray = new int[3][3];
