@@ -24,16 +24,16 @@ public class ExtraDynamicArray_4 {
 
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
-                if (i == j || (i+j)%count==0) {
+                if (i == j || (i + j) % count == 0) {
                     diagonalsMatrix[i][j] = matrix[i][j];
                     System.out.print(diagonalsMatrix[i][j]);
-                }else {
+                } else {
                     diagonalsMatrix[i][j] = 0;
-                    System.out.print(diagonalsMatrix[i][j]);;
+                    System.out.print(diagonalsMatrix[i][j]);
+                    ;
                 }
             }
             System.out.println();
         }
-
     }
 }
