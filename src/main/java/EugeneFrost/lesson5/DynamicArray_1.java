@@ -26,7 +26,7 @@ public class DynamicArray_1 {
                 } else {
                     array[i][j] = "B";
                 }
-                System.out.print(array[i][j]);
+                System.out.print(array[i][j]+' ');
             }
             System.out.println();
         }
