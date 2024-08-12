@@ -92,7 +92,7 @@
       <module name="AN19-onl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="daniil_s.*" />
+          <option name="PATTERN" value="Vladislav.lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
