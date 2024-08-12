@@ -21,9 +21,9 @@ public class DynamicArray_1 {
         String[][] array = new String[8][8];
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
-                if ((i+j) % 2 == 0) {
+                if ((i + j) % 2 == 0) {
                     array[i][j] = "W";
-                } else{
+                } else {
                     array[i][j] = "B";
                 }
                 System.out.print(array[i][j]);
