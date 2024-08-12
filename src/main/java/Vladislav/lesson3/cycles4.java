@@ -9,10 +9,10 @@ package Vladislav.lesson3;
 
 public class cycles4 {
     public static void main(String[] args){
-        int a = 0;
-        while (a < 98) {
-            a = a + 7;
-            System.out.println(a);
+        int Result = 0;
+        while (Result < 98) {
+            Result = Result + 7;
+            System.out.println(Result);
         }
     }
 }

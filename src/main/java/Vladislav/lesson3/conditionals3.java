@@ -12,8 +12,8 @@ public class conditionals3 {
     public static void main(String[] args) {
                 Scanner s = new Scanner(System.in);
         System.out.println("Ведите число:");
-        int t = s.nextInt();
-        if ((t % 2)==0){
+        int inputInt = s.nextInt();
+        if ((inputInt % 2)==0){
             System.out.println("Чётное");
         } else {
             System.out.println("Нечётное");

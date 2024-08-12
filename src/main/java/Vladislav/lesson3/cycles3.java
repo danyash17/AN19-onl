@@ -12,11 +12,14 @@ public class cycles3 {
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         System.out.println("Введите число:");
-        int i = s.nextInt();
-        int c = 0;
-        for (int a = 1;a <= i;a++){
-            c=c+a;
+        int inputInt = s.nextInt();
+        int sum = 0;
+        if (inputInt>0){
+        for (int a = 1; a <= inputInt; a++){
+            sum+=a;
         }
-        System.out.println(c);
+        System.out.println(sum);}
+        else {
+            System.out.println("error");}
     }
 }
