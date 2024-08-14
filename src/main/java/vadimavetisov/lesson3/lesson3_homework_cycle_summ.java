@@ -14,6 +14,11 @@ public class lesson3_homework_cycle_summ {
         Scanner s = new Scanner(System.in);
         int num = s.nextInt();
 
+        if (num <= 0) {
+            System.out.println("Incorrectly!");
+            return;
+        }
+
         int summ = 0;
         for (int i = 1; i <= num; i++) {
             summ = summ + i;
