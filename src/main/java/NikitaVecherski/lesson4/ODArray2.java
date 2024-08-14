@@ -1,5 +1,6 @@
 package NikitaVecherski.lesson4;
 
+import java.util.Arrays;
 import java.util.OptionalDouble;
 import java.util.Scanner;
 import java.util.stream.DoubleStream;
@@ -22,11 +23,24 @@ public class ODArray2 {
             for (int i = 0; i < n; i++) {
                 ArrayRandom[i] = Math.random();
             }
-            System.out.println(DoubleStream.of(ArrayRandom).max() + " Является максимальным значением");
-            System.out.println(DoubleStream.of(ArrayRandom).average() + " Является средним значением");
-            System.out.println(DoubleStream.of(ArrayRandom).min() + " Является минимальным значением");
+
+
+            String max =(DoubleStream.of(ArrayRandom).max() + " Является максимальным значением");
+            max = max.substring(14);
+
+            String avarage = (DoubleStream.of(ArrayRandom).average() + " Является средним значением");
+            avarage = avarage.substring(14);
+
+            String min = (DoubleStream.of(ArrayRandom).min() + " Является минимальным значением");
+            min = min.substring(14);
+
+            System.out.println(max);
+            System.out.println(avarage);
+            System.out.println(min);
+
 
         }
     }
 }
 // к сожалению, не нашел как убрать OptionalDouble из вывода, toString не помог :/
+// ладно, я нашел как схитрить :)
