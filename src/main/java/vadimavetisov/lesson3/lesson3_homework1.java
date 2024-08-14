@@ -10,30 +10,28 @@ public class lesson3_homework1 {
 
         System.out.println("Enter month number: ");
         Scanner s = new Scanner(System.in);
-        int string = s.nextInt();
+        int inputInt = s.nextInt();
 
-        int seasons = string;
-
-        switch (seasons) {
+        switch (inputInt) {
             case 12,1,2: {
                 System.out.println("Winter");
+                break;
             }
-            break;
 
             case 3,4,5: {
                 System.out.println("Spring");
+                break;
             }
-            break;
 
             case 6,7,8: {
                 System.out.println("Summer");
+                break;
             }
-            break;
 
             case 9,10,11: {
                 System.out.println("Autumn");
+                break;
             }
-            break;
             default:
                 System.out.println("Incorrectly! Please use numbers from 1 to 12");
         }
