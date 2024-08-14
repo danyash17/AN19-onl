@@ -6,8 +6,8 @@ public class lesson3_homework_cycle_for {
 
     public static void main(String[] args) {
 
-        for(int i = 0, d = 1; d <= 100; i++, d+=2) {
-            System.out.println(d);
+        for (int i = 1; i <= 100; i+=2) {
+            System.out.println(i);
         }
     }
 
