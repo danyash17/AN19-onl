@@ -10,20 +10,18 @@ public class lesson3_homework2 {
 
         System.out.println("Enter month number: ");
         Scanner s = new Scanner(System.in);
-        int string = s.nextInt();
+        int inputInt = s.nextInt();
 
-        int seasons = string;
-
-        if (seasons==12|seasons==1|seasons==2) {
+        if (inputInt==12||inputInt==1||inputInt==2) {
             System.out.println("Winter");
         }
-        else if (seasons==3|seasons==4|seasons==5) {
+        else if (inputInt==3||inputInt==4||inputInt==5) {
             System.out.println("Spring");
         }
-        else if (seasons==6|seasons==7|seasons==8) {
+        else if (inputInt==6||inputInt==7||inputInt==8) {
             System.out.println("Summer");
         }
-        else if (seasons==9|seasons==10|seasons==11) {
+        else if (inputInt==9||inputInt==10||inputInt==11) {
             System.out.println("Autumn");
         }
         else {
