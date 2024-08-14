@@ -25,5 +25,6 @@ public class ODArray0 {
             System.out.println("Данное число находится в массиве, ячейка номер " +search);
         }
         else System.out.println("Данного числа нет в массиве");
+
     }
 }
