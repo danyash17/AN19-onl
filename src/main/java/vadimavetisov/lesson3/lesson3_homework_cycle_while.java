@@ -6,10 +6,10 @@ public class lesson3_homework_cycle_while {
 
     public static void main(String[] args) {
 
-        int i=6;
-        while (i >= 2) {
-            i--;
+        int i=5;
+        while (i >= 1) {
             System.out.println(i);
+            i--;
         }
     }
 }
