@@ -2,7 +2,7 @@ package vadimavetisov.lesson4;
 
 import java.util.Scanner;
 
-public class lesson4_homework1 {
+public class lesson4_homework0 {
     //0. Создайте массив целых чисел. Напишете программу, которая выводит
     //сообщение о том, входит ли заданное число в массив или нет.
     //Пусть число для поиска задается с консоли (класс Scanner).
@@ -19,6 +19,7 @@ public class lesson4_homework1 {
         for (int i = 0; i < mass.length; i++) {
             if (num == mass[i]) {
                 flag = true;
+                break;
             }
         }
         if (flag == true) {
