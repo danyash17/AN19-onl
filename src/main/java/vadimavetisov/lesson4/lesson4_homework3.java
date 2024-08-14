@@ -25,39 +25,43 @@ public class lesson4_homework3 {
 
         Random random = new Random();
 
-        double one = 0;
-        double two = 0;
+        double average1 = 0;
+        double average2 = 0;
 
         System.out.println(ANSI_GREEN + "Массив №1:" + ANSI_RESET);
 
         for (int i = 0; i < firstArr.length; i++) {
-            firstArr[i] = (int) (Math.floor(Math.random() * 9999));
-            one = one + firstArr[i];
+            firstArr[i] = (int) ((Math.random() * 9999));
+            average1 = average1 + firstArr[i];
         }
         System.out.println(Arrays.toString(firstArr));
 
+        average1 = average1 / firstArr.length;
+
         System.out.println(ANSI_CYAN + "Среднее арифметическое:" + ANSI_RESET);
-        System.out.println(one / firstArr.length);
+        System.out.println(average1);
 
         System.out.println("");
 
         System.out.println(ANSI_GREEN + "Массив №2:" + ANSI_RESET);
 
         for (int i = 0; i < secondArr.length; i++) {
-            secondArr[i] = (int) (Math.floor(Math.random() * 9999));
-            two = two + secondArr[i];
+            secondArr[i] = (int) ((Math.random() * 9999));
+            average2 = average2 + secondArr[i];
         }
         System.out.println(Arrays.toString(secondArr));
 
-        System.out.println(ANSI_CYAN + "Среднее арифметическое:" + ANSI_RESET);
-        System.out.println(two / secondArr.length);
+        average2 = average2 / secondArr.length;
 
-        if (one / firstArr.length > two / secondArr.length) {
+        System.out.println(ANSI_CYAN + "Среднее арифметическое:" + ANSI_RESET);
+        System.out.println(average2);
+
+        if (average1 > average2) {
 
             System.out.println("");
             System.out.println(ANSI_RED + "Ср. арифметическое массива №1 больше, чем массива №2!" + ANSI_RESET);
         }
-            else if (one / firstArr.length < two / secondArr.length) {
+            else if (average1 < average2) {
 
             System.out.println("");
             System.out.println(ANSI_RED + "Ср. арифметическое массива №2 больше, чем массива №1!" + ANSI_RESET);
