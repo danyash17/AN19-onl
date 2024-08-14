@@ -14,16 +14,11 @@ public class lesson3_homework3 {
         Scanner s = new Scanner(System.in);
         int evenOdd = s.nextInt();
 
-        int number = evenOdd;
-//
-        if (number %2 == 0) {
+        if (evenOdd %2 == 0) {
             System.out.println("The number is - even");
         }
-        else if (number %2 >= 0) {
-            System.out.println("The number is - odd");
-        }
         else {
-            System.out.println("Incorrectly! Please, enter only numbers.");
+            System.out.println("The number is - odd");
         }
     }
 
