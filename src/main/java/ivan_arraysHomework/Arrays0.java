@@ -2,7 +2,7 @@ package ivan_arraysHomework;
 
 import java.util.Scanner;
 
-public class Arrays1 {
+public class Arrays0 {
     public static void main(String[] args) {
         int[] array = {1, 4, -9, 3, 12, -123};
         int number;
