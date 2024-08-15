@@ -4,7 +4,6 @@ package NikitaVecherski.lesson4;
 //сообщение о том, входит ли заданное число в массив или нет.
 //Пусть число для поиска задается с консоли (класс Scanner)
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ODArray0 {
@@ -18,13 +17,31 @@ public class ODArray0 {
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = i + 1;
         }
-
-        int search = Arrays.binarySearch(numbers, n);
-
-        if (search / 1 >= 0) {
-            System.out.println("Данное число находится в массиве, ячейка номер " +search);
+        boolean c = false;
+        for (int a = 0; a < numbers.length; a++) {
+            if (numbers[a] != n) {
+                continue;
+            } else
+                c = true;
+            System.out.println("Данное число есть в массиве, ячейка номер - " + a);
+            break;
         }
-        else System.out.println("Данного числа нет в массиве");
+        if (c == false){
+            System.out.println("Данного числа нет в массиве");
+
+
 
     }
+
+
 }
+
+
+}
+
+
+
+
+
+
+
