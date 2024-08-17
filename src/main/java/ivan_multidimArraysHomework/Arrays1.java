@@ -12,7 +12,6 @@ W B W B W B W B
 B W B W B W B W*/
 package ivan_multidimArraysHomework;
 
-import java.util.Arrays;
 
 public class Arrays1 {
     public static void main(String[] args) {

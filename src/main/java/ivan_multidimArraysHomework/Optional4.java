@@ -1,7 +1,6 @@
 //Создайте двумерный массив. Выведите на консоль диагонали массива.
 package ivan_multidimArraysHomework;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Optional4 {
