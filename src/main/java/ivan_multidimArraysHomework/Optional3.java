@@ -5,7 +5,7 @@ package ivan_multidimArraysHomework;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Optional2 {
+public class Optional3 {
     public static void main(String[] args) {
         int rows, columns;
         int sum = 0;
