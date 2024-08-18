@@ -1,4 +1,4 @@
-package artem.homework;
+package artem.homework.hw3;
 
     /*Вывести 10 первых чисел последовательности 0, -5,-10,-15..*/
 

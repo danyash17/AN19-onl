@@ -1,4 +1,4 @@
-package artem.homework;
+package artem.homework.hw4;
 
     /*Создайте массив и заполните массив.
     Выведите массив на экран в строку.

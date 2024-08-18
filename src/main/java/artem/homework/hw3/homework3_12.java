@@ -1,4 +1,4 @@
-package artem.homework;
+package artem.homework.hw3;
 
     /*Выведите на экран первые 11 членов последовательности Фибоначчи.*/
 

@@ -1,4 +1,4 @@
-package artem.homework;
+package artem.homework.hw4;
 
     /*
     Создайте и заполните массив случайным числами и выведете

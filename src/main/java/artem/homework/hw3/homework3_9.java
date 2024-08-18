@@ -1,4 +1,4 @@
-package artem.homework;
+package artem.homework.hw3;
 
     /*Необходимо, чтоб программа выводила на экран вот такую
     последовательность:

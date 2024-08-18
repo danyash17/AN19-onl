@@ -1,4 +1,4 @@
-package artem.homework;
+package artem.homework.hw3;
 
 import java.util.Scanner;
 

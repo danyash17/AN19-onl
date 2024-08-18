@@ -1,4 +1,4 @@
-package artem.homework;
+package artem.homework.hw3;
 
     /*Составьте программу, выводящую на экран квадраты чисел от 10 до
     20 включительно*/

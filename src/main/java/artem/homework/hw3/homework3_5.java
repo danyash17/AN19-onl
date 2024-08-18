@@ -1,4 +1,4 @@
-package artem.homework;
+package artem.homework.hw3;
 
         /*По введенному номеру определить цвет радуги (1 –
         красный, 4 – зеленый и т. д.)*/

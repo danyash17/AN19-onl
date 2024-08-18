@@ -1,4 +1,4 @@
-package artem.homework;
+package artem.homework.hw3;
 
 public class homework3_13 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package artem.homework;
+package artem.homework.hw3;
 
     /*
     Необходимо вывести на экран числа от 5 до 1.
