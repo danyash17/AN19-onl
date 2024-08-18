@@ -21,27 +21,13 @@ public class Arrays1 {
         {
             for (int j = 0; j < 8; j++)
             {
-                if (i % 2 == 0)
+                if ((i+j) % 2 == 0)
                 {
-                    if (j % 2 == 0)
-                    {
-                        array[i][j] = "W";
-                    }
-                    else
-                    {
-                        array[i][j] = "B";
-                    }
+                    array[i][j] = "W";
                 }
                 else
                 {
-                    if (j % 2 == 0)
-                    {
-                        array[i][j] = "B";
-                    }
-                    else
-                    {
-                        array[i][j] = "W";
-                    }
+                    array[i][j] = "B";
                 }
             }
         }
