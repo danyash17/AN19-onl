@@ -33,13 +33,7 @@ public class Optional4 {
         System.out.print("Главная диагональ : ");
         for (int i = 0; i < size; i++)
         {
-            for (int j = 0; j < size; j++)
-            {
-                if (i == j)
-                {
-                    System.out.print(array[i][j] + " ");
-                }
-            }
+            System.out.print(array[i][i] + " ");
         }
         System.out.println();
         System.out.print("Побочная диагональ : ");
