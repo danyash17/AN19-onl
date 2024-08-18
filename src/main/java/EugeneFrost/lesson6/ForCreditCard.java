@@ -31,13 +31,43 @@ public class ForCreditCard {
         third.accountID=3;
         third.balance=300.00;
 
-        first.addMoney();
-        second.addMoney();
-        third.takeOffMoney();
-        first.infoCreditCard();
-        second.infoCreditCard();
-        third.infoCreditCard();
+//        first.addMoney();
+//        second.addMoney();
+//        third.takeOffMoney();
+//        first.infoCreditCard();
+//        second.infoCreditCard();
+//        third.infoCreditCard();
 
+        while (true) {
+            System.out.print("Введите номер счёта 1-3: ");
+            int choiceID = sc.nextInt();
+
+            switch (choiceID) {
+                case 1: {
+                    first.doOperation();
+                    break;
+                }
+                case 2: {
+                    second.doOperation();
+                    break;
+                }
+                case 3: {
+                    third.doOperation();
+                    break;
+                }
+                default: {
+                    System.out.println("Неверный номер счёта.");
+                    break;
+                }
+            }
+            System.out.println("Желаете ли вы продолжить?"+"\n"+
+                    " 0 - Нет"+"\n"+
+                    " 1 - Да");
+            int choice = sc.nextInt();
+            if (choice == 0) {
+                return;
+            }
+        }
     }
 }
 

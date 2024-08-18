@@ -28,4 +28,31 @@ public class CreditCard {
     public void infoCreditCard() {
         System.out.println("Информация о счёте " + accountID+":\t"+balance);
     };
+
+    public void doOperation(){
+        System.out.print("Введите необходимое дейстие:" + "\n" +
+                " 1 - Пополнить счёт" + "\n" +
+                " 2 - Вывод средств" + "\n" +
+                " 3 - Информация о счёте" + "\n");
+        int choiceFunc = scan.nextInt();
+
+        switch (choiceFunc) {
+            case 1: {
+                addMoney();
+                break;
+            }
+            case 2: {
+                takeOffMoney();
+                break;
+            }
+            case 3: {
+                infoCreditCard();
+                break;
+            }
+            default:{
+                System.out.println("Неверная команда!");
+                break;
+            }
+        }
+    }
 }
