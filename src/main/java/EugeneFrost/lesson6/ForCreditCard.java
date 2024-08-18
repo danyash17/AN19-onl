@@ -22,14 +22,14 @@ public class ForCreditCard {
         Scanner sc = new Scanner(System.in);
 
         CreditCard first = new CreditCard();
-        first.accountID=1;
-        first.balance=100.00;
+        first.accountID = 1;
+        first.balance = 100.00;
         CreditCard second = new CreditCard();
-        second.accountID=2;
-        second.balance=200.00;
+        second.accountID = 2;
+        second.balance = 200.00;
         CreditCard third = new CreditCard();
-        third.accountID=3;
-        third.balance=300.00;
+        third.accountID = 3;
+        third.balance = 300.00;
 
 //        first.addMoney();
 //        second.addMoney();
@@ -60,8 +60,8 @@ public class ForCreditCard {
                     break;
                 }
             }
-            System.out.println("Желаете ли вы продолжить?"+"\n"+
-                    " 0 - Нет"+"\n"+
+            System.out.println("Желаете ли вы продолжить?" + "\n" +
+                    " 0 - Нет" + "\n" +
                     " 1 - Да");
             int choice = sc.nextInt();
             if (choice == 0) {

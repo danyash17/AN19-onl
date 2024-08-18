@@ -17,19 +17,19 @@ public class CreditCard {
         System.out.print("Введите сумму для пополнения: ");
         int n = scan.nextInt();
         balance += n;
-    };
+    }
 
     public void takeOffMoney() {
         System.out.print("Введите сумму которую необходимо снять: ");
         int n = scan.nextInt();
         balance -= n;
-    };
+    }
 
     public void infoCreditCard() {
-        System.out.println("Информация о счёте " + accountID+":\t"+balance);
-    };
+        System.out.println("Информация о счёте " + accountID + ":\t" + balance);
+    }
 
-    public void doOperation(){
+    public void doOperation() {
         System.out.print("Введите необходимое дейстие:" + "\n" +
                 " 1 - Пополнить счёт" + "\n" +
                 " 2 - Вывод средств" + "\n" +
@@ -49,7 +49,7 @@ public class CreditCard {
                 infoCreditCard();
                 break;
             }
-            default:{
+            default: {
                 System.out.println("Неверная команда!");
                 break;
             }
