@@ -3,11 +3,11 @@ package alexeystrunets;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ht4_arrays_dop4 {
+public class Ht4_arrays_dop4 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         boolean flag = false;
-
+//Пересматривал циклы и читал гугл , увидел , что есть такая конструкция и решил попробовать,мне показалось это уместным,так ли это?
         while (!flag) {
             System.out.println("Введите размер массива: ");
             int size = scan.nextInt();
