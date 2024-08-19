@@ -40,21 +40,31 @@ public class Simulator {
 
         System.out.println("Введите сумму, которую вы хотите положить на счет первых двух карт");
         Scanner scanner = new Scanner(System.in);
-        double get = scanner.nextDouble();
+        double add = scanner.nextDouble();
 
-        visa.addMoney(get);
-        masterCard.addMoney(get);
+        visa.addMoney(add);
+        masterCard.addMoney(add);
 
         System.out.println("Введите сумму, которую вы хотите снять с третьей карты: ");
-        double add = scanner.nextDouble();
-        belCard.getMoney(add);
-
-        System.out.println("Конечный результат работы:\n 1)Visa ");
-        visa.seeMoney();
-        System.out.println("2)MasterCard");
-        masterCard.seeMoney();
-        System.out.println("3)БелКарт");
-        belCard.seeMoney();
+        double get = scanner.nextDouble();
+        if (get > belCard.money){
+            System.out.println("Недостаточно денег на третьей карте");
+            System.out.println("Конечный результат работы:\n 1)Visa ");
+            visa.seeMoney();
+            System.out.println("2)MasterCard");
+            masterCard.seeMoney();
+            System.out.println("3)БелКарт");
+            belCard.seeMoney();
+        }
+        else {
+            belCard.getMoney(get);
+            System.out.println("Конечный результат работы:\n 1)Visa ");
+            visa.seeMoney();
+            System.out.println("2)MasterCard");
+            masterCard.seeMoney();
+            System.out.println("3)БелКарт");
+            belCard.seeMoney();
+        }
 
 
     }
