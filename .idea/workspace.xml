@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2128709a-fcee-447a-b714-4559717358ad" name="Changes" comment="feat: add README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/daniil_s/Sandbox.java" afterDir="false" />
+    <list default="true" id="2128709a-fcee-447a-b714-4559717358ad" name="Changes" comment="feat: fix Class1">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NikitaVecherski/lesson3/homework1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NikitaVecherski/lesson3/homework2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NikitaVecherski/lesson6/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NikitaVecherski/lesson6/Simulator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +24,36 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="188499804b24cbe9f6755801357b47183fe0eab6" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vchr17&quot;
+  }
+}</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="feat: added homework1" />
+        <option name="rewordedMessage" value="feat: added homework" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="80696d7112c0b5403620fdc71cb19d2620111e68" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/danyash17/AN19-onl.git&quot;,
+    &quot;accountId&quot;: &quot;60b87006-45d5-4b5e-82f5-b7026e52843f&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,23 +66,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Sandbox.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Consruction3.executor": "Run",
+    "Application.Construction1.executor": "Run",
+    "Application.Construction3.executor": "Run",
+    "Application.Construction5.executor": "Run",
+    "Application.Cycles1.executor": "Run",
+    "Application.Cycles3.executor": "Run",
+    "Application.Cycles4.executor": "Run",
+    "Application.MDArrays0.executor": "Run",
+    "Application.ODArray0.executor": "Run",
+    "Application.ODArray2.executor": "Run",
+    "Application.Optional2.executor": "Run",
+    "Application.Sandbox.executor": "Run",
+    "Application.Simulator.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#8 on NikitaVecherski",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Nikita/IdeaProjects/AN19-onl/src/main/java/NikitaVecherski/lesson4/ODArray0.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "two.files.diff.last.used.file": "C:/Users/Nikita/IdeaProjects/AN19-onl/src/main/java/NikitaVecherski/lesson4/ODArray0.java"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Sandbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="daniil_s.Sandbox" />
+}]]></component>
+  <component name="RunManager" selected="Application.Simulator">
+    <configuration name="MDArrays0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NikitaVecherski.lesson5.MDArrays0" />
       <module name="AN19-onl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="daniil_s.*" />
+          <option name="PATTERN" value="NikitaVecherski.lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ODArray0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NikitaVecherski.lesson4.ODArray0" />
+      <module name="AN19-onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NikitaVecherski.lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ODArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NikitaVecherski.lesson4.ODArray2" />
+      <module name="AN19-onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NikitaVecherski.lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Optional2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NikitaVecherski.lesson3.Optional2" />
+      <module name="AN19-onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NikitaVecherski.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Simulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NikitaVecherski.lesson6.Simulator" />
+      <module name="AN19-onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NikitaVecherski.lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,7 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sandbox" />
+        <item itemvalue="Application.Simulator" />
+        <item itemvalue="Application.MDArrays0" />
+        <item itemvalue="Application.ODArray0" />
+        <item itemvalue="Application.ODArray2" />
+        <item itemvalue="Application.Optional2" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +194,207 @@
       <option name="project" value="LOCAL" />
       <updated>1722770467852</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: added homework1">
+      <option name="closed" value="true" />
+      <created>1722924167056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722924167056</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: added homework2">
+      <option name="closed" value="true" />
+      <created>1722924520697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722924520697</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: added homework2">
+      <option name="closed" value="true" />
+      <created>1722947923713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722947923713</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: done Construction3">
+      <option name="closed" value="true" />
+      <created>1722951196283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722951196283</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: removed wrong import">
+      <option name="closed" value="true" />
+      <created>1722951216110</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722951216110</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: fixed name">
+      <option name="closed" value="true" />
+      <created>1722951319929</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722951319929</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: done Construction5">
+      <option name="closed" value="true" />
+      <created>1722952658904</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722952658904</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: done Cycles1">
+      <option name="closed" value="true" />
+      <created>1723029792486</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723029792486</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: done Cycles3, fixed names, added tasks">
+      <option name="closed" value="true" />
+      <created>1723284594871</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723284594871</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: done Cycles4">
+      <option name="closed" value="true" />
+      <created>1723287097022</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723287097022</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: done Optional2">
+      <option name="closed" value="true" />
+      <created>1723294371672</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723294371672</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: redone Construction1">
+      <option name="closed" value="true" />
+      <created>1723381597825</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723381597825</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: redone Construction3">
+      <option name="closed" value="true" />
+      <created>1723382138416</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723382138416</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: redone Construction4">
+      <option name="closed" value="true" />
+      <created>1723382273016</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723382273016</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: redone Cycles1">
+      <option name="closed" value="true" />
+      <created>1723382846057</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723382846057</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: redone Cycles3">
+      <option name="closed" value="true" />
+      <created>1723382922373</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723382922373</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: redone Optional2">
+      <option name="closed" value="true" />
+      <created>1723383216352</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723383216352</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: done ODArrays0">
+      <option name="closed" value="true" />
+      <created>1723476132851</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723476132851</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: done ODArrays2">
+      <option name="closed" value="true" />
+      <created>1723639323296</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1723639323296</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: done ODArrays2">
+      <option name="closed" value="true" />
+      <created>1723643707319</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723643707319</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix : ODArray0 redone">
+      <option name="closed" value="true" />
+      <created>1723731121841</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723731121841</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: done MDArrays0 1.0v">
+      <option name="closed" value="true" />
+      <created>1723810549613</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723810549613</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: done MDArrays0 2.0v">
+      <option name="closed" value="true" />
+      <created>1723812891556</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723812891556</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: done Class1">
+      <option name="closed" value="true" />
+      <created>1724083968627</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1724083968627</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: fix Class1">
+      <option name="closed" value="true" />
+      <created>1724085048338</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1724085048338</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,15 +402,50 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/NikitaVecherski" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init: setup project workspace" />
     <MESSAGE value="feat: add README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add README.md" />
+    <MESSAGE value="feat: added homework1" />
+    <MESSAGE value="feat: done Construction1" />
+    <MESSAGE value="feat: done Construction1" />
+    <MESSAGE value="feat: done Construction3" />
+    <MESSAGE value="feat: removed wrong import" />
+    <MESSAGE value="feat: fixed name" />
+    <MESSAGE value="feat: done Construction5" />
+    <MESSAGE value="feat: done Cycles1" />
+    <MESSAGE value="feat: done Cycles3, fixed names, added tasks" />
+    <MESSAGE value="feat: done Cycles4" />
+    <MESSAGE value="feat: done Optional2" />
+    <MESSAGE value="feat: redone Construction1" />
+    <MESSAGE value="feat: redone Construction3" />
+    <MESSAGE value="feat: redone Construction4" />
+    <MESSAGE value="feat: redone Cycles1" />
+    <MESSAGE value="feat: redone Cycles3" />
+    <MESSAGE value="feat: redone Optional2" />
+    <MESSAGE value="feat: done ODArrays0" />
+    <MESSAGE value="feat: done ODArrays2" />
+    <MESSAGE value="fix : ODArray0 redone" />
+    <MESSAGE value="feat: done MDArrays0 1.0v" />
+    <MESSAGE value="feat: done MDArrays0 2.0v" />
+    <MESSAGE value="feat: done Class1" />
+    <MESSAGE value="feat: fix Class1" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fix Class1" />
   </component>
 </project>
