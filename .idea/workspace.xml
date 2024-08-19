@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2128709a-fcee-447a-b714-4559717358ad" name="Changes" comment="feat: homework lesson 4 part 1">
+    <list default="true" id="2128709a-fcee-447a-b714-4559717358ad" name="Changes" comment="feat: homework lesson 4 part 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/artem/homework/homework3_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/artem/homework/homework3_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/artem/homework/homework3_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/artem/homework/homework3_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/daniil_s/Sandbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daniil_s/Sandbox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +28,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "KalbMARIN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KalbMARIN&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/danyash17/AN19-onl.git",
-    "accountId": "ecb21d63-d922-4541-b342-874ec6357789"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/danyash17/AN19-onl.git&quot;,
+    &quot;accountId&quot;: &quot;ecb21d63-d922-4541-b342-874ec6357789&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -56,6 +55,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Sandbox.executor": "Run",
+    "Application.Task2.executor": "Run",
+    "Application.Task3.executor": "Run",
     "Application.homework3.executor": "Run",
     "Application.homework3_1.executor": "Run",
     "Application.homework3_10.executor": "Run",
@@ -74,9 +75,9 @@
     "Application.homework4_2.executor": "Run",
     "Application.homework4_3.executor": "Run",
     "Application.practica.executor": "Run",
+    "Application.task1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "ArtemBelonozhko",
     "ignore.virus.scanning.warn.message": "true",
@@ -88,7 +89,12 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.homework3_13">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="artem.homework" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Task3">
     <configuration name="Sandbox" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="daniil_s.Sandbox" />
       <module name="AN19-onl" />
@@ -102,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework3_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="artem.homework.homework3_12" />
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="artem.homework.hw5.Task2" />
       <module name="AN19-onl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="artem.homework.*" />
+          <option name="PATTERN" value="artem.homework.hw5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,38 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework3_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="artem.homework.homework3_13" />
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="artem.homework.hw5.Task3" />
       <module name="AN19-onl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="artem.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homework4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="artem.homework.homework4_1" />
-      <module name="AN19-onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="artem.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homework4_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="artem.homework.homework4_2" />
-      <module name="AN19-onl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="artem.homework.*" />
+          <option name="PATTERN" value="artem.homework.hw5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +135,37 @@
       </method>
     </configuration>
     <configuration name="homework4_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="artem.homework.homework4_3" />
+      <option name="MAIN_CLASS_NAME" value="artem.homework.hw4.homework4_3" />
       <module name="AN19-onl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="artem.homework.*" />
+          <option name="PATTERN" value="artem.homework.hw3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="artem.homework.practica" />
+      <module name="AN19-onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="artem.homework.hw3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="artem.homework.hw5.task1" />
+      <module name="AN19-onl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="artem.homework.hw5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.homework3_13" />
-        <item itemvalue="Application.homework3_12" />
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.task1" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.practica" />
         <item itemvalue="Application.homework4_3" />
-        <item itemvalue="Application.homework4_2" />
-        <item itemvalue="Application.homework4_1" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +232,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723402449179</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: homework lesson 4 part 2">
+      <option name="closed" value="true" />
+      <created>1723478914500</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723478914500</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: homework lesson 4 part 2">
+      <option name="closed" value="true" />
+      <created>1724013545094</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724013545094</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: homework lesson 4 part 2">
+      <option name="closed" value="true" />
+      <created>1724084063951</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724084063951</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +288,7 @@
     <MESSAGE value="feat: add lesson 3" />
     <MESSAGE value="feat: homework lesson 3" />
     <MESSAGE value="feat: homework lesson 4 part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: homework lesson 4 part 1" />
+    <MESSAGE value="feat: homework lesson 4 part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: homework lesson 4 part 2" />
   </component>
 </project>
