@@ -1,4 +1,4 @@
-package alexeystrunets;
+package alexeystrunets.ht5;
 
 public class ht5_matrix_dop3 {
     public static void main(String[] args) {

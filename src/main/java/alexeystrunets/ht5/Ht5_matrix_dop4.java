@@ -1,7 +1,7 @@
 
 //Создайте двумерный массив. Выведите на консоль диагонали массива
 
-package alexeystrunets;
+package alexeystrunets.ht5;
 
 
 public class Ht5_matrix_dop4 {

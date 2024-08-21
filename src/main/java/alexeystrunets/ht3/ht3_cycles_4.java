@@ -1,4 +1,4 @@
-package alexeystrunets;
+package alexeystrunets.ht3;
 
 public class ht3_cycles_4 {
     public static void main(String[] args) {

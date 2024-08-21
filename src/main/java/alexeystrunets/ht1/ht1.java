@@ -1,4 +1,4 @@
-package alexeystrunets;
+package alexeystrunets.ht1;
 
 import java.util.Scanner;
 

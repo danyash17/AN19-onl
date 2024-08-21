@@ -12,7 +12,7 @@
 //Выведите на экран текущее состояние всех трех карточек
 
 
-package alexeystrunets;
+package alexeystrunets.ht6.CreditCard;
 
 public class CreditCard {
     public String accountNumber;

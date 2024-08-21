@@ -1,4 +1,4 @@
-package alexeystrunets;
+package alexeystrunets.ht5;
 
 import java.util.Arrays;
 

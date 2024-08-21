@@ -10,7 +10,7 @@
 //Положите деньги на первые две карточки и снимите с третьей.
 //Выведите на экран текущее состояние всех трех карточек
 
-package alexeystrunets;
+package alexeystrunets.ht6.CreditCard;
 
 public class Main {
     public static void main(String[] args) {

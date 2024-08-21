@@ -1,4 +1,4 @@
-package alexeystrunets;
+package alexeystrunets.ht3;
 
 import java.util.Scanner;
 public class ht3_2 {
