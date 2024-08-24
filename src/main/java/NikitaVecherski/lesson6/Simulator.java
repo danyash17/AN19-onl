@@ -16,58 +16,31 @@ import java.util.Scanner;
 
 public class Simulator {
     public static void main(String[] args) {
-        creditCard visa = new creditCard();
-        visa.checkNum = ("4246 4100 7415 8417");
-        visa.money = 1000;
 
-        creditCard masterCard = new creditCard();
-        masterCard.checkNum = ("4100 4137 4118 2703");
-        masterCard.money = 1000;
+        CreditCard cardVisa = new CreditCard("Visa", "4243-7152-1318-9922", 1000);
+        CreditCard cardMaestro = new CreditCard("Maestro", "4415-1322-1784-1582", 1000);
+        CreditCard cardBelcard = new CreditCard("BelCard", "4215-1823-1904-1223", 1000);
 
-        creditCard belCard = new creditCard();
-        belCard.checkNum = ("4224 1717 1898 2203");
-        belCard.money = 1000;
+        System.out.println("Все доступные к работе карты:");
+        System.out.println(cardVisa);
+        System.out.println(cardMaestro);
+        System.out.println(cardBelcard);
 
-        System.out.println("Все доступные к работе карты:\n     1)Visa:");
-        visa.seeMoney();
-        visa.seeCheckNum();
-        System.out.println("    2) MasterCard");
-        masterCard.seeMoney();
-        masterCard.seeCheckNum();
-        System.out.println("    3) БелКарт");
-        belCard.seeMoney();
-        belCard.seeCheckNum();
-
-        System.out.println("Введите сумму, которую вы хотите положить на счет первых двух карт");
         Scanner scanner = new Scanner(System.in);
-        double add = scanner.nextDouble();
-        if (add < 0) {
-            System.out.println("Нельзя положить на счет отрицательное кол-во денег");
-        } else {
-            visa.addMoney(add);
-            masterCard.addMoney(add);
 
-            System.out.println("Введите сумму, которую вы хотите снять с третьей карты: ");
-            double get = scanner.nextDouble();
-            if (get > belCard.money) {
-                System.out.println("Недостаточно денег на третьей карте");
-                System.out.println("Конечный результат работы:\n 1)Visa ");
-                visa.seeMoney();
-                System.out.println("2)MasterCard");
-                masterCard.seeMoney();
-                System.out.println("3)БелКарт");
-                belCard.seeMoney();
-            } else {
-                belCard.getMoney(get);
-                System.out.println("Конечный результат работы:\n 1)Visa ");
-                visa.seeMoney();
-                System.out.println("2)MasterCard");
-                masterCard.seeMoney();
-                System.out.println("3)БелКарт");
-                belCard.seeMoney();
-            }
+        System.out.println("Введите сумму, которую надо положить на две первые карты: ");
+        double moneyIn = scanner.nextDouble();
+        cardVisa.addMoney(moneyIn);
+        cardMaestro.addMoney(moneyIn);
+
+        System.out.println("Введите число, которое надо снять с третьей карты");
+        cardBelcard.getMoney(scanner.nextDouble());
+
+        System.out.println("Карты после работы: ");
+        System.out.println(cardVisa);
+        System.out.println(cardMaestro);
+        System.out.println(cardBelcard);
 
 
-        }
     }
 }
