@@ -4,32 +4,44 @@ import java.util.Random;
 
 public class Patient {
 
-    Integer Illnes;
-    boolean cured;
+    private Integer illnes;
+    private boolean cured;
+    private String name;
+    private TreatmentPlan plan = null;
 
-    void gotCured() {
-        if (cured == true) {
-            System.out.println("Пациент излечен");
-        }
-    }
-
-    void cameToClinic() {
-        System.out.println("Пациент пришел в клинику");
-    }
-
-    void isIll() {
+    public Patient(String name) {
         Random random = new Random();
-        Illnes = random.nextInt(1, 5);
-        if (Illnes == 1) {
-            System.out.println("Добрый день, у меня болит пятка :(");
-        }
-        if (Illnes == 2) {
-            System.out.println("Добрый день, у меня болит зуб :(");
-        }
-        if (Illnes >= 3) {
-            System.out.println("Добрый день, у меня болит живот :(");
-        }
+        illnes = random.nextInt(1, 5);
+        this.name = name;
     }
+
+    public void setIllnes(Integer illnes) {
+        this.illnes = illnes;
+    }
+
+    public Integer getIllnes() {
+        return illnes;
+    }
+
+    public void setCured(boolean cured) {
+        this.cured = cured;
+    }
+
+
+    String getProfile() {
+        return "Name: " + name + "\n" + "Illness: " + illnes + "\nCured: " + cured;
+    }
+
+    TreatmentPlan getPlan() {
+        return plan;
+    }
+
+    void setPlan(TreatmentPlan plan) {
+        this.plan = plan;
+    }
+
+
 }
+
 
 

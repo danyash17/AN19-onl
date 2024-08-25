@@ -1,8 +1,10 @@
 package NikitaVecherski.lesson7;
 
-public class Dentist {
+public class Dentist extends Doctor {
 
-    public void docIsHere() {
-        System.out.println("Добрый день, я - Дантист.\nСадитесь на кресло");
+    @Override
+    void heal(Patient patient) {
+        System.out.println("Добрый день, я - Дантист. Присаживайтесь на кресло");
+        super.heal(patient);
     }
 }

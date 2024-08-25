@@ -1,9 +1,11 @@
 package NikitaVecherski.lesson7;
 
-public class Therapist {
+public class Therapist extends Doctor {
 
-    public void docIsHere() {
-        System.out.println("Добрый день, я - Терапевт.\nВот вам активированный уголь");
+    @Override
+    void heal(Patient patient) {
+        System.out.println("Добрый день, я - Терапевт. Скажите А");
+        super.heal(patient);
     }
 
 }

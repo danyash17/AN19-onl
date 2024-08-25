@@ -1,38 +1,34 @@
 package NikitaVecherski.lesson7;
 
-//2. Создать программу для имитации работы клиники.
-//Пусть в клинике будет три врача: хирург, терапевт и дантист.
-//Каждый врач имеет метод «лечить», но каждый врач лечит по-своему.
-//Так же предусмотреть класс «Пациент» и класс «План лечения».
-//Создать объект класса «Пациент» и добавить пациенту план лечения.
-//Так же создать метод, который будет назначать врача пациенту согласно
-//плану лечения.
-//Если план лечения имеет код 1 – назначить хирурга и выполнить метод
-//лечить.
-//Если план лечения имеет код 2 – назначить дантиста и выполнить метод
-//лечить.
-//Если план лечения имеет любой другой код – назначить терапевта и
-//выполнить метод лечить
 
 public class Clinic {
-    public static void main(String[] args) {
 
-        Patient patient = new Patient();
-        if (patient.cured == false){
-            patient.cameToClinic();
-            patient.isIll();
+    //make array
 
-            TreatmentPlan treatmentPlan = new TreatmentPlan();
-            treatmentPlan.treatment(patient.Illnes);
+    private Doctor surgeon;
+    private Doctor dentist;
+    private Doctor therapist;
 
-            patient.cured = true;
-            patient.gotCured();
+    public Clinic() {
+        surgeon = new Surgeon();
+        dentist = new Dentist();
+        therapist = new Therapist();
+    }
 
+    void acceptPatient(Patient patient) {
+        TreatmentPlan treatmentPlan = new TreatmentPlan(patient.getIllnes());
+        patient.setPlan(treatmentPlan);
+        switch (patient.getPlan().getCode()) {
+            case 1:
+                surgeon.heal(patient);
+                break;
+            case 2:
+                dentist.heal(patient);
+                break;
+            default:
+                therapist.heal(patient);
         }
-
-
-
-
     }
 
 }
+
