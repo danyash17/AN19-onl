@@ -13,10 +13,6 @@ public class Patient {
         return name;
     }
 
-    public int getTreatmentPlan() {
-        return treatmentPlan;
-    }
-
     public void assignDoctorAndTreat() {
         // В зависимости от плана лечения назначаем врача
         if (treatmentPlan == 1) {
