@@ -18,13 +18,27 @@ public class Homework1 {
     public static void main(String[] args) {
 
         //пациенты
-        Patient patientOne = new Patient(1);
-        Patient patientTwo = new Patient(2);
-        Patient patientTree = new Patient(44);
-
-        System.out.println(patientOne.toString());
-        System.out.println(patientTwo.toString());
-        System.out.println(patientTree.toString());
+        Patient patient = new Patient();
+        TreatmentPlan treatmentPlan = new TreatmentPlan(44);
+        patient.setTreatPlan(treatmentPlan);
+        assignDoctor(patient);
 
     }
+
+    public static void assignDoctor(Patient patient) {
+        int treatPlan = patient.getTreatPlan().getTreatmentCode();
+        Doctor doctor;
+
+        if (treatPlan == 1) {
+            doctor = new Surgeon();
+        } else if (treatPlan == 2) {
+            doctor = new Therapist();
+        } else {
+            doctor = new Dantist();
+        }
+
+        doctor.treat();
+    }
+
 }
+

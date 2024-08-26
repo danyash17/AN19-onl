@@ -1,9 +1,9 @@
 package Alex_P.lesson7;
 
-public class Surgeon implements Treatable {
+public class Surgeon implements Doctor {
 
     @Override
-    public String heal() {
-        return "Лечит хиругр";
+    public void treat() {
+        System.out.println("Лечит хирург");
     }
 }

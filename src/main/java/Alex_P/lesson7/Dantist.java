@@ -1,8 +1,8 @@
 package Alex_P.lesson7;
 
-public class Dantist implements Treatable {
+public class Dantist implements Doctor {
     @Override
-    public String heal() {
-        return "Лечит дантист";
+    public void treat() {
+        System.out.println("Лечит дантист");;
     }
 }

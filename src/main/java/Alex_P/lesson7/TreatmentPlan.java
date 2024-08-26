@@ -11,4 +11,8 @@ public class TreatmentPlan {
     public int getTreatmentCode() {
         return treatmentCode;
     }
+
+    public void setTreatmentCode(int treatmentCode) {
+        this.treatmentCode = treatmentCode;
+    }
 }
