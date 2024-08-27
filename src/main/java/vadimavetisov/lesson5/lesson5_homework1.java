@@ -25,7 +25,7 @@ public class lesson5_homework1 {
         String[][] intArray = new String[8][8];
 
         for (int i = 0; i < intArray.length; i++) {
-            for (int j = 0; j < intArray.length; j++) {
+            for (int j = 0; j < intArray[i].length; j++) {
                 if ((i + j) % 2 == 0) {
                     System.out.print(ANSI_WHITE + "W" + " " + ANSI_RESET);
                 } else {
