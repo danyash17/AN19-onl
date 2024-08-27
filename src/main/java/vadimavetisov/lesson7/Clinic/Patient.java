@@ -4,7 +4,7 @@ public class Patient {
 
     public static void main(String[] args) {
 
-        Treatment_plan treatmentPlan = new Treatment_plan(2614);
+        TreatmentPlan treatmentPlan = new TreatmentPlan(2614);
         treatmentPlan.assignDoctor();
     }
 }

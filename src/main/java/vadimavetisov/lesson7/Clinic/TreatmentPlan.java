@@ -1,6 +1,6 @@
 package vadimavetisov.lesson7.Clinic;
 
-public class Treatment_plan extends Doctor {
+public class TreatmentPlan extends Doctor {
 
     static Doctor doctor1 = new Surgeon();
     static Doctor doctor2 = new Dentist();
@@ -8,7 +8,7 @@ public class Treatment_plan extends Doctor {
 
     int code;
 
-    public Treatment_plan(int code) {
+    public TreatmentPlan(int code) {
         this.code = code;
     }
 
