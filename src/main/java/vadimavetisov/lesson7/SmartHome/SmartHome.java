@@ -8,7 +8,9 @@ public class SmartHome {
     public void hello() {
         light.on();
         thermostat.on(20);
+    }
 
+    public void goodbye() {
         light.off();
         thermostat.off();
     }

@@ -6,5 +6,6 @@ public class Simulation {
 
         SmartHome smartHome = new SmartHome();
         smartHome.hello();
+        smartHome.goodbye();
     }
 }
