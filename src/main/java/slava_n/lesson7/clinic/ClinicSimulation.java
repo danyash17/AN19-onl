@@ -17,16 +17,16 @@ public class ClinicSimulation {
     //выполнить метод лечить.
 
     public static void main(String[] args) {
+
         Patient patient = new Patient();
-
-
-        TreatmentPlan plan = new TreatmentPlan(-1);
+        TreatmentPlan plan = new TreatmentPlan(1);
         patient.setTreatmentPlan(plan);
 
-        patient.assignDoctor();
-        patient.treatPatient();
+        Clinic clinic = new Clinic();
+        clinic.assignDoctor(patient);
     }
 }
+
 
 
 
