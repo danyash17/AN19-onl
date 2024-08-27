@@ -7,6 +7,6 @@ public class Animal {
         this.typeOfAnimal = typeOfAnimal;
     }
     public void makeSound (){
-        System.out.println("Something");
+        System.out.println("Animal makes a sound: Something");
     }
 }
