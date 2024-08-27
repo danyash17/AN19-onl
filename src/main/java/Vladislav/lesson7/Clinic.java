@@ -1,9 +1,9 @@
 package Vladislav.lesson7;
 
 public class Clinic {
-    void choiceDoctor(Patient patient) {
+    public void chooseDoctorAndStartTreating(Patient patient) {
         Doctor doctor;
-        switch (patient.treatmentPlan.number) {
+        switch (patient.getTreatmentPlan().getNumber()) {
             case 1:
                 doctor = new Surgeon();
                 break;
