@@ -1,60 +1,43 @@
 package vadimavetisov.lesson6;
 
-import java.util.Scanner;
-
 public class CreditCard {
-
-    private static final String ANSI_RESET = "\u001B[0m";
-    ;
-    private static final String ANSI_CYAN = "\u001B[36m";
-    ;
-    private static final String ANSI_GREEN = "\u001B[32m";
 
     String account;
     Long balance;
-    String name;
 
-    public CreditCard(String account, String name, Long balance) {
+    public CreditCard(String account, Long balance) {
         this.account = account;
-        this.name = name;
         this.balance = balance;
 
     }
 
-    Scanner scanner = new Scanner(System.in);
+    public void moneyIn(Long amount) {
 
-    public void moneyIn() {
-        System.out.println(ANSI_CYAN + "Кредитная карта №: " + ANSI_RESET + ANSI_GREEN + account + ANSI_RESET);
-        System.out.println(ANSI_CYAN + "Владелец карты: " + ANSI_RESET + ANSI_GREEN + name + ANSI_RESET);
-        System.out.println(ANSI_CYAN + "Текущий баланс: " + ANSI_RESET + ANSI_GREEN + balance + " USD" + ANSI_RESET);
-        System.out.println(ANSI_CYAN + "Пополнить USD: " + ANSI_RESET);
-
-        int scanIntIn = scanner.nextInt();
-
-        balance += scanIntIn;
-
-        System.out.println();
+        if (amount > 0) {
+            balance += amount;
+        } else {
+            throw new InputException("Неверная сумма");
+            //Так делать приветствуется в этом классе? Или это нужно делать в классе с psvm?
+            //Если желательно так делать в классе с psvm, то не могу сообразить,
+            // что указывать там в условии if.
+            //А ещё здесь явно можно дать второй шанс для ввода. Но не соображу, что писать в условии.
+            //Если это надо делать в классе с psvm, тогда ещё больше не соображу, что писать в условии.
+            //Подскажи для чайников плиз, как в таком случае можно прописать try?
+        }
     }
 
-    public void moneyOut() {
-        System.out.println(ANSI_CYAN + "Кредитная карта № " + ANSI_RESET + ANSI_GREEN + account + ANSI_RESET);
-        System.out.println(ANSI_CYAN + "Владелец карты: " + ANSI_RESET + ANSI_GREEN + name + ANSI_RESET);
-        System.out.println(ANSI_CYAN + "Текущий баланс: " + ANSI_RESET + ANSI_GREEN + balance + ANSI_RESET);
-        System.out.println(ANSI_CYAN + "Снять USD: " + ANSI_RESET);
+    public void moneyOut(Long amount) {
 
-        int scanIntOut = scanner.nextInt();
+        if (amount > 0) {
+            balance -= amount;
+        } else {
+            throw new InputException("Неверная сумма");
+        }
 
-        balance -= scanIntOut;
-
-        System.out.println();
     }
 
-    public void info() {
-        System.out.println(ANSI_CYAN + "Кредитная карта № " + ANSI_RESET + ANSI_GREEN + account + ANSI_RESET);
-        System.out.println(ANSI_CYAN + "Владелец карты: " + ANSI_RESET + ANSI_GREEN + name + ANSI_RESET);
-        System.out.println(ANSI_CYAN + "Текущий баланс: " + ANSI_RESET + ANSI_GREEN + balance + ANSI_RESET);
-
-        System.out.println();
+    @Override
+    public String toString() {
+        return "\nКредитная карта №: " + account + "\nТекущий баланс: " + balance + "\n";
     }
-
 }

@@ -1,8 +1,9 @@
 package vadimavetisov.lesson6;
 
-import java.util.Arrays;
+import java.util.Scanner;
 
 public class lesson6_homework1 {
+
     //1. Создать класс CreditCard c полями номер счета, текущая сумма на счету.
     //Добавьте метод, который позволяет начислять сумму на кредитную
     //карточку.
@@ -17,17 +18,24 @@ public class lesson6_homework1 {
 
     public static void main(String[] args) {
 
-        CreditCard card1 = new CreditCard("6321 8756 3257 6553", "Charlize Theron", 5000L);
-        CreditCard card2 = new CreditCard("9525 3255 4684 1653", "Mel Gibson", 3000L);
-        CreditCard card3 = new CreditCard("1654 4896 3168 8465", "Michael Jackson", 1000L);
+        Scanner scanner = new Scanner(System.in);
 
-        card1.moneyIn();
-        card2.moneyIn();
-        card3.moneyOut();
+        CreditCard card1 = new CreditCard("1", 5000L);
+        CreditCard card2 = new CreditCard("2", 3000L);
+        CreditCard card3 = new CreditCard("3", 1000L);
 
-        card1.info();
-        card2.info();
-        card3.info();
+        System.out.println("Пополнить USD: ");
+        card1.moneyIn(scanner.nextLong());
+
+        System.out.println("\nПополнить USD: ");
+        card2.moneyIn(scanner.nextLong());
+
+        System.out.println("\nСнять USD: ");
+        card3.moneyOut(scanner.nextLong());
+
+        System.out.println(card1);
+        System.out.println(card2);
+        System.out.println(card3);
 
     }
 }
