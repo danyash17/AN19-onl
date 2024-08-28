@@ -28,15 +28,15 @@ public class Patient {
     }
 
 
-    String getProfile() {
+    public String getProfile() {
         return "Name: " + name + "\n" + "Illness: " + illnes + "\nCured: " + cured;
     }
 
-    TreatmentPlan getPlan() {
+    public TreatmentPlan getPlan() {
         return plan;
     }
 
-    void setPlan(TreatmentPlan plan) {
+    public void setPlan(TreatmentPlan plan) {
         this.plan = plan;
     }
 

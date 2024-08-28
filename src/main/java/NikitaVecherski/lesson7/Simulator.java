@@ -21,7 +21,7 @@ public class Simulator {
         System.out.println(patient.getProfile());
         Clinic clinic = new Clinic();
         clinic.acceptPatient(patient);
-
+        System.out.println(patient.getProfile());
 
     }
 }

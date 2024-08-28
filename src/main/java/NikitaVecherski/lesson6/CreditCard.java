@@ -18,7 +18,7 @@ public class CreditCard {
     }
 
 
-    double getMoney(double get) {
+    public double getMoney(double get) {
         if (get > money) {
             System.out.println("Недостаточно средств на карте " + cardName);
         } else
@@ -27,7 +27,7 @@ public class CreditCard {
     }
 
 
-    double addMoney(double add) {
+    public double addMoney(double add) {
         if (add < 0) {
             System.out.println("Нельзя положить отрицательное число на карту");
         } else

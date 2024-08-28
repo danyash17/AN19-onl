@@ -12,20 +12,18 @@ public class TreatmentPlan {
                 break;
             case 4:
                 code = 2;
+                Doctor dentist;
                 break;
-            case 1:
-            case 2:
             default:
                 code = 3;
+                Doctor therapist;
         }
     }
 
-    Integer getCode() {
+    public Integer getCode() {
         return code;
     }
-
 }
-
 
 
 
