@@ -10,10 +10,10 @@ public class PatientRegistration {
         System.out.print("Введите ваше имя: ");
         name = sc.nextLine();
 
-        if (name.isEmpty()){
+        if (name.isEmpty()) {
             throw new InvalidNameException("Необходимо ввести имя!");
         } else {
-            System.out.print("Успех, "+name+"! Вы успешно зарегестрировались.");
+            System.out.print("Успех, " + name + "! Вы успешно зарегестрировались.");
         }
     }
 }

@@ -8,7 +8,7 @@ package EugeneFrost.lesson9;
 
 public class Hospital {
     public static void main(String[] args) throws InvalidNameException {
-        try{
+        try {
             PatientRegistration.registration();
         } catch (InvalidNameException e) {
             System.out.println(e.getMessage());
