@@ -1,4 +1,4 @@
-package EugeneFrost.lesson9;
+package EugeneFrost.lesson9.TaskHospital;
 
 import java.util.Scanner;
 

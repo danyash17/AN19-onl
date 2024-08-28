@@ -1,4 +1,4 @@
-package EugeneFrost.lesson9;
+package EugeneFrost.lesson9.TaskHospital;
 
 //**task**
 // Описание: Создать класс PatientRegistration, который позволяет регистрировать пациентов.
