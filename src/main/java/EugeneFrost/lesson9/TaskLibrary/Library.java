@@ -31,7 +31,7 @@ public class Library {
 
         if (!found) {
             throw new BookNotFoundException();
-        }else {
+        } else {
             System.out.print("Книга найдена");
         }
 
