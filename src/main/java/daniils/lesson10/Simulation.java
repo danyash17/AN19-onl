@@ -12,7 +12,7 @@ public class Simulation {
         String a = "abc";
         String b = "abd";
         System.out.println(a.compareTo(b));
-        System.out.println();\
+        System.out.println();
     }
 
 }
