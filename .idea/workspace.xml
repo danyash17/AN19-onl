@@ -26,6 +26,23 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vchr17&quot;
+  }
+}</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="feat: added homework1" />
+        <option name="rewordedMessage" value="feat: added homework" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="80696d7112c0b5403620fdc71cb19d2620111e68" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -274,13 +291,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init: setup project workspace" />
     <MESSAGE value="feat: add README.md" />
     <MESSAGE value="feat: add teachers dir" />
     <MESSAGE value="feat: add encodings.xml" />
     <MESSAGE value="feat: add compiler.xml" />
     <MESSAGE value="feat: add jarRepositories.xml" />
     <MESSAGE value="feat: amend workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: amend workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: amend workspace.xml" /
   </component>
 </project>
