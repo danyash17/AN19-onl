@@ -31,8 +31,19 @@ public class Main {
         StringMethods.replaceThreeLetters(documentNumber);
         StringMethods.onlyLetters(documentNumber);
         StringMethods.onlyLettersBuilderUp(documentNumber);
-        StringMethods.containsSequenceAbc(documentNumber);
-        StringMethods.isStartsWithNumber555(documentNumber);
-        StringMethods.isEndWith1a2b(documentNumber);
+
+        if(StringMethods.isContainsSequenceAbc(documentNumber)){
+            System.out.println("Номер содержит последовательность abc");
+        } else{
+            System.out.println("Номер не содержит последовательность abc");
+        }
+
+        System.out.println(StringMethods.isStartsWithNumber555(documentNumber));
+        System.out.println(StringMethods.isEndWith1a2b(documentNumber));
+
+
     }
+
 }
+
+

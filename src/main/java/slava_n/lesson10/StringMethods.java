@@ -39,23 +39,19 @@ public class StringMethods {
     //- Проверить содержит ли номер документа последовательность abc и
     //вывети сообщение содержит или нет(причем, abc и ABC считается
     //одинаковой последовательностью).
-    public static void containsSequenceAbc(String documentNumber) {
-        if (documentNumber.toLowerCase().contains("abc")) {
-            System.out.println("Содержит последовательность 'abc' ");
-        } else {
-            System.out.println("Не содержит последовательность 'abc' ");
-        }
+    public static boolean isContainsSequenceAbc(String documentNumber) {
+        return documentNumber.toLowerCase().contains("abc");
     }
 
     //- Проверить начинается ли номер документа с последовательности
     //555.
-    public static void isStartsWithNumber555(String documentNumber) {
-        System.out.println(documentNumber.startsWith("555"));
+    public static boolean isStartsWithNumber555(String documentNumber) {
+        return documentNumber.startsWith("555");
     }
 
     //- Проверить заканчивается ли номер документа на
     //последовательность 1a2b.
-    public static void isEndWith1a2b(String documentNumber) {
-        System.out.println(documentNumber.endsWith("1a2b"));
+    public static boolean isEndWith1a2b(String documentNumber) {
+        return documentNumber.endsWith("1a2b");
     }
 }

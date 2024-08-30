@@ -7,17 +7,19 @@ import java.util.Scanner;
 //Напишите метод, который принимает возраст пользователя и выбрасывает InvalidAgeException, если возраст некорректен.
 //Обработайте это исключение в методе main и выведите понятное сообщение для пользователя.
 
-public class Main extends CheckClientsAge {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Сколько Вам лет?");
         int age = scanner.nextInt();
         try {
-            checkClientsAge(age);
+            CheckClientsAge.checkClientsAge(age);
+            System.out.println("Спасибо!");
         } catch (InvalidAgeException e) {
             System.out.println("Введите корректное значение");
             age = scanner.nextInt();
-            checkClientsAge(age);
+            CheckClientsAge.checkClientsAge(age);
+            System.out.println("Спасибо");
         }
 
     }

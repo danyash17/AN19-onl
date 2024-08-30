@@ -2,7 +2,7 @@ package slava_n.lesson9.task2;
 
 import java.util.Scanner;
 
-public class Main extends Divide {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,11 +13,11 @@ public class Main extends Divide {
         int delitel = scanner.nextInt();
 
         try {
-            System.out.println(divide(delimoe, delitel));
+            System.out.println(Divide.divide(delimoe, delitel));
         } catch (ArithmeticException e) {
             System.out.println("Попробуйте еще раз");
             delitel = scanner.nextInt();
-            System.out.println(divide(delimoe, delitel));
+            System.out.println(Divide.divide(delimoe, delitel));
         } finally {
             System.out.println("Операция завершена");
         }
