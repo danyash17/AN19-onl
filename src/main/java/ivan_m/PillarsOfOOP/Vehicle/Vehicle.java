@@ -9,6 +9,14 @@ public class Vehicle {
         this.model = model;
     }
 
+    public int getSpeed() {
+        return speed;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
     @Override
     public String toString() {
         return "Vehicle{" +

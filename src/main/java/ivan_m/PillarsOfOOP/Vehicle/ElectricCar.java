@@ -12,9 +12,9 @@ public class ElectricCar extends Vehicle {
     @Override
     public String toString() {
         return "ElectricCar{" +
-                "speed=" +  //тут должно быть поле "Cкорость" для теслы"
-                "model=" +  //тут должно быть поле "Модель" для теслы
-                "batteryLife=" + batteryLife +
+                "speed=" + getSpeed() +
+                ", model=" + getModel() +
+                ", batteryLife=" + batteryLife +
                 '}';
     }
 }
