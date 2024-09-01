@@ -60,17 +60,14 @@ public class MyStringMethods {
     }
 
     public static boolean stringIncludeString(String firstString, String secondString) {
-        if (firstString.toLowerCase().contains(secondString.toLowerCase())) return true;
-        return false;
+        return firstString.toLowerCase().contains(secondString.toLowerCase());
     }
 
     public static boolean stringStartsWithString(String firstString, String secondString) {
-        if (firstString.toLowerCase().indexOf(secondString.toLowerCase()) == 0) return true;
-        return false;
+        return firstString.toLowerCase().indexOf(secondString.toLowerCase()) == 0;
     }
 
     public static boolean stringEndsWithString(String firstString, String secondString) {
-        if (firstString.toLowerCase().indexOf(secondString.toLowerCase()) == firstString.length() - secondString.length()) return true;
-        return false;
+        return firstString.toLowerCase().indexOf(secondString.toLowerCase()) == firstString.length() - secondString.length();
     }
 }
