@@ -28,19 +28,18 @@ public class Homework1 {
         String myString = "1234-qWe-5678-AsD-9z0X";
 
         System.out.println("#1");
-        System.out.println(MyStringMethods.TwoNumberBlocks(myString));
+        System.out.println(MyStringMethods.twoNumberBlocks(myString));
         System.out.println("#2");
-        System.out.println(MyStringMethods.DocNumberWithStars(myString));
+        System.out.println(MyStringMethods.docNumberWithStars(myString));
         System.out.println("#3");
-        System.out.println(MyStringMethods.LettersLowerCase(myString));
+        System.out.println(MyStringMethods.lettersLowerCase(myString));
         System.out.println("#4");
-        System.out.println(MyStringMethods.LettersUpperCase(myString));
+        System.out.println(MyStringMethods.lettersUpperCase(myString));
         System.out.println("#5");
-        System.out.println(MyStringMethods.StringIncludeString(myString, "asd"));
+        System.out.println(MyStringMethods.stringIncludeString(myString, "asd"));
         System.out.println("#6");
-        System.out.println(MyStringMethods.StringStartsWithString(myString, "555"));
+        System.out.println(MyStringMethods.stringStartsWithString(myString, "555"));
         System.out.println("#7");
-        System.out.println(MyStringMethods.StringEndsWithString(myString, "1a2b"));
-
+        System.out.println(MyStringMethods.stringEndsWithString(myString, "1a2b"));
     }
 }

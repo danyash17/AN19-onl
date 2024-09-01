@@ -1,7 +1,7 @@
 package Alex_P.lesson10;
 
 public class MyStringMethods {
-    static String TwoNumberBlocks(String myString) {
+    public static String twoNumberBlocks(String myString) {
         StringBuilder newString = new StringBuilder();
         int[] myArray = new int[]{1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         int i = 0;
@@ -12,7 +12,7 @@ public class MyStringMethods {
         return String.valueOf(newString);
     }
 
-    static String DocNumberWithStars(String myString) {
+    public static String docNumberWithStars(String myString) {
         StringBuilder newString = new StringBuilder();
         int[] myArray = new int[]{1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1};
         int i = 0;
@@ -27,7 +27,7 @@ public class MyStringMethods {
         return String.valueOf(newString);
     }
 
-    static String LettersLowerCase(String myString) {
+    public static String lettersLowerCase(String myString) {
         StringBuilder newString = new StringBuilder();
         boolean startOfSubsequence = false;
         for (int i = 0; i < myString.length(); i++) {
@@ -43,7 +43,7 @@ public class MyStringMethods {
         return String.valueOf(newString);
     }
 
-    static String LettersUpperCase(String myString) {
+    public static String lettersUpperCase(String myString) {
         StringBuilder newString = new StringBuilder("Letters:");
         boolean startOfSubsequence = false;
         for (int i = 0; i < myString.length(); i++) {
@@ -59,17 +59,17 @@ public class MyStringMethods {
         return String.valueOf(newString);
     }
 
-    static boolean StringIncludeString(String firstString, String secondString) {
+    public static boolean stringIncludeString(String firstString, String secondString) {
         if (firstString.toLowerCase().contains(secondString.toLowerCase())) return true;
         return false;
     }
 
-    static boolean StringStartsWithString(String firstString, String secondString) {
+    public static boolean stringStartsWithString(String firstString, String secondString) {
         if (firstString.toLowerCase().indexOf(secondString.toLowerCase()) == 0) return true;
         return false;
     }
 
-    static boolean StringEndsWithString(String firstString, String secondString) {
+    public static boolean stringEndsWithString(String firstString, String secondString) {
         if (firstString.toLowerCase().indexOf(secondString.toLowerCase()) == firstString.length() - secondString.length()) return true;
         return false;
     }

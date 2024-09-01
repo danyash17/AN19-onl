@@ -11,18 +11,13 @@ import java.util.Scanner;
 
 public class Homework1 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter user's age");
         int age = scanner.nextInt();
-        try {
-            System.out.println("User's age: " + CheckUserAge(age));
-        } catch (Exception | InvalidAgeException e) {
-            throw new RuntimeException(e);
-        }
+        System.out.println("User's age: " + CheckUserAge(age));
     }
 
-    public static int CheckUserAge(int age) throws InvalidAgeException {
+    static int CheckUserAge(int age) throws InvalidAgeException {
         if (age <= 0) {
             throw new InvalidAgeException("User's age cant be less then 0");
         } else if (age > 120) {
