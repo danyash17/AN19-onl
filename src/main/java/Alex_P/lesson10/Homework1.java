@@ -23,8 +23,6 @@ package Alex_P.lesson10;
 //которые на вход (входным параметром) будут принимать вводимую на
 //вход программы строку.
 
-import java.util.SortedMap;
-
 public class Homework1 {
     public static void main(String[] args) {
         String myString = "1234-qWe-5678-AsD-9z0X";

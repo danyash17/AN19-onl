@@ -1,11 +1,8 @@
 package Alex_P.lesson10;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class MyStringMethods {
     static String TwoNumberBlocks(String myString) {
-        StringBuilder newString = new StringBuilder("");
+        StringBuilder newString = new StringBuilder();
         int[] myArray = new int[]{1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         int i = 0;
         for (int num : myArray) {
@@ -16,7 +13,7 @@ public class MyStringMethods {
     }
 
     static String DocNumberWithStars(String myString) {
-        StringBuilder newString = new StringBuilder("");
+        StringBuilder newString = new StringBuilder();
         int[] myArray = new int[]{1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1};
         int i = 0;
         for (int num : myArray) {
@@ -31,7 +28,7 @@ public class MyStringMethods {
     }
 
     static String LettersLowerCase(String myString) {
-        StringBuilder newString = new StringBuilder("");
+        StringBuilder newString = new StringBuilder();
         boolean startOfSubsequence = false;
         for (int i = 0; i < myString.length(); i++) {
             char myChar = myString.charAt(i);
@@ -63,23 +60,17 @@ public class MyStringMethods {
     }
 
     static boolean StringIncludeString(String firstString, String secondString) {
-        if (firstString.toLowerCase().indexOf(secondString.toLowerCase()) >= 0) {
-            return true;
-        }
+        if (firstString.toLowerCase().contains(secondString.toLowerCase())) return true;
         return false;
     }
 
     static boolean StringStartsWithString(String firstString, String secondString) {
-        if (firstString.toLowerCase().indexOf(secondString.toLowerCase()) == 0) {
-            return true;
-        }
+        if (firstString.toLowerCase().indexOf(secondString.toLowerCase()) == 0) return true;
         return false;
     }
 
     static boolean StringEndsWithString(String firstString, String secondString) {
-        if (firstString.toLowerCase().indexOf(secondString.toLowerCase()) == firstString.length() - secondString.length()) {
-            return true;
-        }
+        if (firstString.toLowerCase().indexOf(secondString.toLowerCase()) == firstString.length() - secondString.length()) return true;
         return false;
     }
 }
