@@ -23,10 +23,14 @@ package NikitaVecherski.lesson10;
 //которые на вход (входным параметром) будут принимать вводимую на
 //вход программы строку.
 
+import java.util.Scanner;
+
 public class Simulator {
     public static void main(String[] args) {
 
-        String docNum = "4571-acd-5743-ABC-1a2b";
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите номер документа по формату xxxx-yyy-xxxx-yyy-xyxy, где x — это число,а y — это буква");
+        String docNum = scanner.next();
 
         //Вывести на экран в одну строку два первых блока по 4 цифры.
         System.out.println (Logic.task1(docNum));
