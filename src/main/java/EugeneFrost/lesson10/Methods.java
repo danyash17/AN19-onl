@@ -18,7 +18,7 @@ package EugeneFrost.lesson10;
 //вход программы строку.
 
 public class Methods {
-//  - Вывести на экран в одну строку два первых блока по 4 цифры.
+    //  - Вывести на экран в одну строку два первых блока по 4 цифры.
     public static void writeTwoBlocksDigit(String numOfDoc) {
         String[] result = numOfDoc.split("-");
         for (String word : result) {
@@ -29,11 +29,11 @@ public class Methods {
         System.out.println();
     }
 
-//  - Вывести на экран номер документа, но блоки из трех букв заменить на *** (каждая буква заменятся на *).
-    public static void writeNumOfDoc(String numOfDoc){
+    //  - Вывести на экран номер документа, но блоки из трех букв заменить на *** (каждая буква заменятся на *).
+    public static void writeNumOfDoc(String numOfDoc) {
         String[] result = numOfDoc.split("-");
         for (String word : result) {
-            if(word.length()==3){
+            if (word.length() == 3) {
                 word = word.replaceAll("[a-zA-Z]", "*");
             }
             System.out.print(word);
@@ -41,8 +41,8 @@ public class Methods {
         System.out.println();
     }
 
-//  - Вывести на экран только одни буквы из номера документа в формате yyy/yyy/y/y в нижнем регистре.
-    public static String lowerCase(String numOfDoc){
+    //  - Вывести на экран только одни буквы из номера документа в формате yyy/yyy/y/y в нижнем регистре.
+    public static String lowerCase(String numOfDoc) {
         String[] result = numOfDoc.split("-");
         StringBuilder letters = new StringBuilder();
 
@@ -55,9 +55,9 @@ public class Methods {
         return letters.toString().toLowerCase();
     }
 
-//  - Вывести на экран буквы из номера документа в формате "Letters:yyy/yyy/y/y"
+    //  - Вывести на экран буквы из номера документа в формате "Letters:yyy/yyy/y/y"
 //  в верхнем регистре(реализовать с помощью класса StringBuilder).
-    public static String upperCase(String numOfDoc){
+    public static String upperCase(String numOfDoc) {
         String[] result = numOfDoc.split("-");
         StringBuilder letters = new StringBuilder("Letters:");
         if (result.length >= 5) {
@@ -69,9 +69,9 @@ public class Methods {
         return letters.toString().toUpperCase();
     }
 
-//  - Проверить содержит ли номер документа последовательность abc и вывети сообщение
+    //  - Проверить содержит ли номер документа последовательность abc и вывети сообщение
 //  содержит или нет(причем, abc и ABC считается одинаковой последовательностью).
-    public static void checkABC(String numOfDoc){
+    public static void checkABC(String numOfDoc) {
         String lowCase = numOfDoc.toLowerCase();
         String sequence = "abc";
 
@@ -82,20 +82,20 @@ public class Methods {
         }
     }
 
-//  - Проверить начинается ли номер документа с последовательности 555.
-    public static void checkBegin555(String numOfDoc){
+    //  - Проверить начинается ли номер документа с последовательности 555.
+    public static void checkBegin555(String numOfDoc) {
         int index = numOfDoc.indexOf("555");
-        if (index>=0){
+        if (index >= 0) {
             System.out.println("Начинается с последовательности 555");
         } else {
             System.out.println("Не начинается с последовательности 555");
         }
     }
 
-//  - Проверить заканчивается ли номер документа на последовательность 1a2b.
-    public static void checkEnd1a2b(String numOfDoc){
+    //  - Проверить заканчивается ли номер документа на последовательность 1a2b.
+    public static void checkEnd1a2b(String numOfDoc) {
         int index = numOfDoc.lastIndexOf("1a2b");
-        if (index>=0){
+        if (index >= 0) {
             System.out.println("Заканчивается последовательностью 1a2b");
         } else {
             System.out.println("Не заканчивается последовательностью 1a2b");

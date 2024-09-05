@@ -24,9 +24,7 @@ public class TaskForString {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите номер документа в формате " +
-                "xxxx-yyy-xxxx-yyy-xyxy, где " +
-                "x — это число, а y — это буква: ");
+        System.out.println("Введите номер документа в формате " + "xxxx-yyy-xxxx-yyy-xyxy, где " + "x — это число, а y — это буква: ");
 
         String numOfDoc = sc.nextLine();
 
