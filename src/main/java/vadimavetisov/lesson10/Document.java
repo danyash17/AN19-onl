@@ -43,19 +43,19 @@ public class Document {
 //Проверить содержит ли номер документа последовательность abc и
 //вывети сообщение содержит или нет(причем, abc и ABC считается
 //одинаковой последовательностью).
-    public static Boolean contSym(String document) {
+    public static boolean contSym(String document) {
         String docNum = "abc";
         document = document.toLowerCase();
         return document.contains(docNum);
     }
 
 //Проверить начинается ли номер документа с последовательности 555.
-    public static Boolean contStart(String document) {
+    public static boolean contStart(String document) {
         return document.startsWith("555");
     }
 
 //Проверить заканчивается ли номер документа на последовательность 1a2b.
-    public static Boolean contEnds(String document) {
+    public static boolean contEnds(String document) {
         return document.endsWith("1a2b");
     }
 }
