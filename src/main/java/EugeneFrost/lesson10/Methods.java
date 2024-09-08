@@ -19,26 +19,22 @@ package EugeneFrost.lesson10;
 
 public class Methods {
     //  - Вывести на экран в одну строку два первых блока по 4 цифры.
-    public static void writeTwoBlocksDigit(String numOfDoc) {
+    public static String twoBlocksDigit(String numOfDoc) {
         String[] result = numOfDoc.split("-");
-        for (String word : result) {
-            if (word.matches("\\d+")) {
-                System.out.print(word);
-            }
-        }
-        System.out.println();
+        return result[0]+result[2];
     }
 
     //  - Вывести на экран номер документа, но блоки из трех букв заменить на *** (каждая буква заменятся на *).
-    public static void writeNumOfDoc(String numOfDoc) {
+    public static String numOfDocWithStar(String numOfDoc) {
         String[] result = numOfDoc.split("-");
+        String newest = "";
         for (String word : result) {
             if (word.length() == 3) {
                 word = word.replaceAll("[a-zA-Z]", "*");
             }
-            System.out.print(word);
+            newest += word;
         }
-        System.out.println();
+        return newest;
     }
 
     //  - Вывести на экран только одни буквы из номера документа в формате yyy/yyy/y/y в нижнем регистре.
@@ -71,35 +67,25 @@ public class Methods {
 
     //  - Проверить содержит ли номер документа последовательность abc и вывети сообщение
 //  содержит или нет(причем, abc и ABC считается одинаковой последовательностью).
-    public static void checkABC(String numOfDoc) {
+    public static boolean checkABC(String numOfDoc) {
         String lowCase = numOfDoc.toLowerCase();
         String sequence = "abc";
 
-        if (lowCase.contains(sequence)) {
-            System.out.println("Содержит \"abc\"");
-        } else {
-            System.out.println("Не содержит \"abc\"");
-        }
+        return lowCase.contains(sequence);
     }
 
     //  - Проверить начинается ли номер документа с последовательности 555.
-    public static void checkBegin555(String numOfDoc) {
+    public static boolean checkBegin555(String numOfDoc) {
         int index = numOfDoc.indexOf("555");
-        if (index >= 0) {
-            System.out.println("Начинается с последовательности 555");
-        } else {
-            System.out.println("Не начинается с последовательности 555");
-        }
+
+        return index >= 0;
     }
 
     //  - Проверить заканчивается ли номер документа на последовательность 1a2b.
-    public static void checkEnd1a2b(String numOfDoc) {
+    public static boolean checkEnd1a2b(String numOfDoc) {
         int index = numOfDoc.lastIndexOf("1a2b");
-        if (index >= 0) {
-            System.out.println("Заканчивается последовательностью 1a2b");
-        } else {
-            System.out.println("Не заканчивается последовательностью 1a2b");
-        }
+
+        return index >= 0;
     }
 }
 

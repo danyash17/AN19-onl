@@ -24,17 +24,34 @@ public class TaskForString {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите номер документа в формате " + "xxxx-yyy-xxxx-yyy-xyxy, где " + "x — это число, а y — это буква: ");
+        System.out.println("Введите номер документа в формате " +
+                "xxxx-yyy-xxxx-yyy-xyxy, где " +
+                "x — это число, а y — это буква: ");
 
         String numOfDoc = sc.nextLine();
 
-        Methods.writeTwoBlocksDigit(numOfDoc);
-        Methods.writeNumOfDoc(numOfDoc);
+        System.out.println(Methods.twoBlocksDigit(numOfDoc));
+        System.out.println(Methods.numOfDocWithStar(numOfDoc));
         System.out.println(Methods.lowerCase(numOfDoc));
         System.out.println(Methods.upperCase(numOfDoc));
-        Methods.checkABC(numOfDoc);
-        Methods.checkBegin555(numOfDoc);
-        Methods.checkEnd1a2b(numOfDoc);
+
+        if (Methods.checkABC(numOfDoc)) {
+            System.out.println("Содержит \"abc\"");
+        } else {
+            System.out.println("Не содержит \"abc\"");
+        }
+
+        if (Methods.checkBegin555(numOfDoc)) {
+            System.out.println("Начинается с последовательности 555");
+        } else {
+            System.out.println("Не начинается с последовательности 555");
+        }
+
+        if (Methods.checkEnd1a2b(numOfDoc)) {
+            System.out.println("Заканчивается последовательностью 1a2b");
+        } else {
+            System.out.println("Не заканчивается последовательностью 1a2b");
+        }
     }
 }
 //5555-aBc-4567-BMV-1a2b
