@@ -19,7 +19,7 @@ public class Library {
     }
 
 
-    public void removeBook(String isbn) {
+    public void removeBook(String isbn) throws BookNotFoundException {
         Book bookToRemove = null;
         for (Book book : books) {
             if (book.getIsbn().equals(isbn)) {
@@ -31,18 +31,18 @@ public class Library {
             books.remove(bookToRemove);
             System.out.println("Книга удалена: " + bookToRemove);
         } else {
-            System.out.println("Книга с ISBN " + isbn + " не найдена.");
+            throw new BookNotFoundException("Книга с ISBN " + isbn + " не найдена.");
         }
     }
 
 
-    public Book findBookByTitle(String title) {
+    public Book findBookByTitle(String title) throws BookNotFoundException {
         for (Book book : books) {
             if (book.getTitle().equalsIgnoreCase(title)) {
                 return book;
             }
         }
-        return null;
+        throw new BookNotFoundException("Книга с названием \"" + title + "\" не найдена.");
     }
 
 
@@ -68,4 +68,5 @@ public class Library {
         }
     }
 }
+
 
