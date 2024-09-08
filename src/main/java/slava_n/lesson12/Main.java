@@ -36,33 +36,24 @@ public class Main {
 
         Book bookOne = new Book("Allan Wake", "Return", 2018, "asd");
         Book bookTwo = new Book("Allan Make", "Refurd", 2019, "asdT");
-        Book bookThree = new Book("Allan Cake", "Inspiration", 2020, "UsdT");
+        Book bookThree = new Book("Allan Cake", "CalmDown", 2020, "UsdT");
+        Book bookFour = new Book("Pushkin", "Filin", 1900, "213sa");
         Library list = new Library();
 
         //Добавление книг
         list.addBook(bookOne);
         list.addBook(bookTwo);
         list.addBook(bookThree);
+        list.addBook(bookFour);
 
         // Удаление книги
         list.removeBook("asd");
 
-        // Поиск по автору
-        if (list.findBookByTitle("Inspiration")) {
-            System.out.println("Ваша книга по названию найдена");
-        } else {
-            throw new InvalidTitleNameException("Книга не найдена");
-        }
+        System.out.println(list.findBookByTitle("Filin"));
 
-        // Поиск по автору
-        if (list.findBooksByAuthor("Allan Make")) {
-            System.out.println("Ваша книга по имени автора найдена, попробуйте еще раз");
-        } else {
-            throw new InvalidAuthorNameException("Книга по имени автора не найдена");
-        }
+        System.out.println(list.findBookByAuthor("Allan Cake"));
 
-
-        list.listAllBooks();
+        System.out.println(list.listAllBooks());
     }
 }
 

@@ -1,47 +1,61 @@
 package slava_n.lesson12;
 
+import slava_n.lesson12.exceptions.InvalidAuthorNameException;
 import slava_n.lesson12.exceptions.InvalidRemoveNameException;
 import slava_n.lesson12.exceptions.InvalidTitleNameException;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Library {
-    ArrayList<Book> library = new ArrayList<>();
+    List<Book> library = new ArrayList<>();
 
     public void addBook(Book book) {
         library.add(book);
     }
 
     public void removeBook(String isbn) throws InvalidRemoveNameException {
-        if (library.removeIf(Book -> Book.getIsbn().equals(isbn))) {
-            library.removeIf(Book -> Book.getIsbn().equals(isbn));
+        Book bookToDelete = null;
+        for (Book book : library) {
+            if (book.getIsbn().equals(isbn)) {
+                bookToDelete = book;
+                break;
+            }
+        }
+
+        if (bookToDelete != null) {
+            library.remove(bookToDelete);
         } else {
-            throw new InvalidRemoveNameException("Название не найдено, попробуйте еще раз");
+            throw new InvalidRemoveNameException("Данная книга не найдена");
         }
     }
 
-    public boolean findBookByTitle(String title) throws InvalidTitleNameException {
+
+    public Book findBookByTitle(String title) throws InvalidTitleNameException {
         for (Book book : library) {
             if (book.getTitle().equalsIgnoreCase(title)) {
-                return true;
+                return book;
             }
         }
-        return false;
+        throw new InvalidTitleNameException("Книги с таким названием не найдено");
     }
 
-    public boolean findBooksByAuthor(String author) {
+
+    public Book findBookByAuthor(String author) throws InvalidAuthorNameException{
         for (Book book : library) {
             if (book.getAuthor().equalsIgnoreCase(author)) {
-                return true;
+                return book;
             }
         }
-        return false;
+        throw new InvalidAuthorNameException("Книг с таким авторством не найдено");
     }
 
-    public void listAllBooks() {
+    public String listAllBooks() {
+        String result = "";
         for (Book book : library) {
-            System.out.println(book.toString());
+           result += book.toString();
         }
+        return result;
     }
 }
 

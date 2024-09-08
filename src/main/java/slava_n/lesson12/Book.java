@@ -31,12 +31,8 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "author='" + author + '\'' +
-                ", title='" + title + '\'' +
-                ", year=" + year +
-                ", isbn='" + isbn + '\'' +
-                '}';
+        return "Книга: " +
+                "автор - " + author + ", название - " + title + ", год - " + year + " isbn - " + isbn + "\n";
     }
 
     public String getAuthor() {
