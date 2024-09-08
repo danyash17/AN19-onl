@@ -23,7 +23,7 @@ public class Library {
         this.books = new ArrayList<Book>();
     }
 
-    public void addBook(Book book){
+    public void addBook(Book book) {
         this.books.add(book);
     }
 
@@ -64,9 +64,9 @@ public class Library {
         }
     }
 
-    public Book findBooksByAuthor(String author){
-        for(Book book : this.books){
-            if (book.getAuthor().equals(author)){
+    public Book findBooksByAuthor(String author) {
+        for (Book book : this.books) {
+            if (book.getAuthor().equals(author)) {
                 return book;
             }
         }

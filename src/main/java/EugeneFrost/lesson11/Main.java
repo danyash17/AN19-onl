@@ -17,13 +17,13 @@ public class Main {
         Library library = new Library();
 
         while (true) {
-            System.out.print("Выберите действие которое необходимо выполнить: "+"\n"+
-                    "1 - Добавить книгу"+"\n"+
-                    "2 - Удалить книгу"+"\n"+
-                    "3 - Найти книгу по названию"+"\n"+
-                    "4 - Найти книгу по автору"+"\n"+
-                    "5 - Вывести список всех книг"+"\n"+
-                    "6 - Завершить программу"+"\n");
+            System.out.print("Выберите действие которое необходимо выполнить: " + "\n" +
+                    "1 - Добавить книгу" + "\n" +
+                    "2 - Удалить книгу" + "\n" +
+                    "3 - Найти книгу по названию" + "\n" +
+                    "4 - Найти книгу по автору" + "\n" +
+                    "5 - Вывести список всех книг" + "\n" +
+                    "6 - Завершить программу" + "\n");
             int choiceID = sc.nextInt();
             sc.nextLine();
 
@@ -41,7 +41,7 @@ public class Main {
                     System.out.println("Введите год книги: ");
                     int yearBook = sc.nextInt();
 
-                    Book bookToAdd =new Book(titleBook, authorBook, isbnBook, yearBook);
+                    Book bookToAdd = new Book(titleBook, authorBook, isbnBook, yearBook);
                     library.addBook(bookToAdd);
                     break;
                 }
@@ -60,7 +60,8 @@ public class Main {
                     String searchIsbn = sc.nextLine();
                     System.out.println(library.findBookByTitle(searchIsbn));
                     break;
-                }case 4: {
+                }
+                case 4: {
                     System.out.println("Введите автора книги, которую необходимо найти: ");
                     String searchAuthor = sc.nextLine();
                     System.out.println(library.findBooksByAuthor(searchAuthor));
@@ -68,7 +69,7 @@ public class Main {
                 }
                 case 5: {
                     System.out.println("Список всех книг: ");
-                    if(!library.listAllBooks()){
+                    if (!library.listAllBooks()) {
                         System.out.println("Библиотека пуста.");
                     }
                     break;
