@@ -14,15 +14,11 @@ public class MainSmartHome {
         home.setThermostat(22);
         if (home.getThermostat() == 22) {
             System.out.println("Термостат установлен на 22 градуса.");
-        } else {
-            System.out.println("Ошибка: Термостат не установлен на 22 градуса.");
         }
 
         home.activateSecuritySystem();
         if (home.isSecuritySystemActive()) {
             System.out.println("Система безопасности активирована.");
-        } else {
-            System.out.println("Ошибка: Система безопасности не активирована.");
         }
 
         if (home.getThermostat() < 20) {
