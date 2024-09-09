@@ -18,6 +18,6 @@ public class CounetMain {
         System.out.println("Уменьшение счетчика: "+counter);
 
         counter.reset();
-        System.out.println("Обновление: "+counter);
+        System.out.println("Сброс: "+counter);
     }
 }
