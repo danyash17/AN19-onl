@@ -9,8 +9,6 @@ import java.util.Scanner;
 Найти самое длинное слово в строке и вывести его на экран.
 Если таких слов несколько, то вывести последнее из них.*/
 
-
-//Задание не доделано. Проблему скидывал в группу в тг
 public class Simulation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -19,20 +17,18 @@ public class Simulation {
         String startString = scanner.nextLine().trim();
         String[] arrayString = startString.split(" ");
 
-        System.out.println(Arrays.toString(arrayString));
-
-        int maxlength = arrayString[0].length();
-        int minlength = arrayString[0].length();
+        int maxlength = Integer.MIN_VALUE;
+        int minlength = Integer.MAX_VALUE;
         String smallWord = "";
         String bigWord = "";
         for (int i = 0; i < arrayString.length; i++) {
-            if (arrayString[i].length() > maxlength) {
+            if (arrayString[i].length() >= maxlength) {
                 maxlength = arrayString[i].length();
-                bigWord = arrayString[i];
+                bigWord = arrayString[i]; //вопрос : почему String  позволяет присвоить новое значение, хотя он  immutable? Такой же вопрос был в другом задании
             }
-            if (arrayString[i].length() < minlength && !Objects.equals(arrayString[i], "")) {
+            if (arrayString[i].length() <= minlength && !Objects.equals(arrayString[i], "")) {
                 minlength = arrayString[i].length();
-                smallWord = arrayString[i];
+                smallWord = arrayString[i]; // тот же вопрос что и в 27 строке
             }
         }
         System.out.println("The shortest word - " + smallWord);
