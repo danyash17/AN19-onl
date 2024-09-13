@@ -18,9 +18,7 @@ public class List {
         if (board.getTasks().isEmpty()) {
             System.out.println("У вас нет задач.");
         } else {
-            for (Task tasks : board.getTasks()) {
                 board.countNumberOfActiveTasks();
-            }
             System.out.println("Активные задачи: " + board.countNumberOfActiveTasks());
         }
 
