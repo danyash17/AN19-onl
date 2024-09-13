@@ -38,7 +38,7 @@ public class Simulator {
 
         Scanner menu = new Scanner(System.in);
         Scanner forTitle = new Scanner(System.in);
-        Scanner forAuthor =new Scanner(System.in);
+        Scanner forAuthor = new Scanner(System.in);
         Scanner forYear = new Scanner(System.in);
 
         boolean workInProgress = true;
@@ -46,59 +46,59 @@ public class Simulator {
             System.out.println("Выберите действие из предложенных: \n 1)Добавить книгу \n 2)Удалить книгу \n 3)Найти книгу по названию" +
                     "\n 4)Вывести список всех книг \n 5)Найти книгу по автору" + "\n 6)Выйти");
             String initial = menu.next();
-                char check = initial.charAt(0);
-                if (!Character.isDigit(check)) {
-                    System.out.println("Неверный формат ввода, попробуйте еще раз\n");
+            char check = initial.charAt(0);
+            if (!Character.isDigit(check)) {
+                System.out.println("Неверный формат ввода, попробуйте еще раз\n");
+            } else {
+                Integer workingInIt = Integer.parseInt(initial);
+                if ((workingInIt < 1) || (workingInIt > 5)) {
+                    System.out.println("Данное действие недоступно, или отсутсвует в списке предложенных");
+                    workInProgress = false;
                 } else {
-                    Integer workingInIt = Integer.parseInt(initial);
-                    if ((workingInIt < 1) || (workingInIt > 5)) {
-                        System.out.println("Данное действие недоступно, или отсутсвует в списке предложенных");
-                        workInProgress = false;
-                    } else {
-                        switch (workingInIt) {
-                            case 1:
-                                System.out.println("Введите название книги: ");
-                                String title = forTitle.nextLine();
-                                System.out.println("Введите автора: ");
-                                String author = forAuthor.nextLine();
-                                System.out.println("Введите год издания: ");
-                                String yearCheck = forYear.nextLine();
-                                for (int i = 0; i < yearCheck.length(); i++) {
-                                    char a = yearCheck.charAt(i);
-                                    if (!Character.isDigit(a)) {
-                                        System.out.println("Неверный формат ввода года");
-                                        break;
-                                    }
+                    switch (workingInIt) {
+                        case 1:
+                            System.out.println("Введите название книги: ");
+                            String title = forTitle.nextLine();
+                            System.out.println("Введите автора: ");
+                            String author = forAuthor.nextLine();
+                            System.out.println("Введите год издания: ");
+                            String yearCheck = forYear.nextLine();
+                            for (int i = 0; i < yearCheck.length(); i++) {
+                                char a = yearCheck.charAt(i);
+                                if (!Character.isDigit(a)) {
+                                    System.out.println("Неверный формат ввода года");
+                                    break;
                                 }
-                                Integer year = Integer.parseInt(yearCheck);
-                                library.addBook(title, author, year);
-                                break;
-                            case 2:
-                                System.out.println("Введите код ISBN: ");
-                                String isbn = menu.next();
-                                library.removeBook(isbn);
-                                break;
-                            case 3:
-                                System.out.println("Введите название книги: ");
-                                String title1 = menu.next();
-                                library.findBookByTitle(title1);
-                                break;
-                            case 4:
-                                library.listAllBooks();
-                                break;
-                            case 5:
-                                System.out.println("Введите полное имя автора в формате Фамилия И.О");
-                                String authorScan = forAuthor.nextLine();
-                                library.findBookByAuthor(authorScan);
-                                break;
-                            case 6:
-                                workInProgress = false;
-                                break;
-                        }
-
-
+                            }
+                            Integer year = Integer.parseInt(yearCheck);
+                            library.addBook(title, author, year);
+                            break;
+                        case 2:
+                            System.out.println("Введите код ISBN: ");
+                            String isbn = menu.next();
+                            library.removeBook(isbn);
+                            break;
+                        case 3:
+                            System.out.println("Введите название книги: ");
+                            String title1 = menu.next();
+                            System.out.println(library.findBookByTitle(title1));
+                            break;
+                        case 4:
+                            System.out.println(library.listAllBooks());
+                            break;
+                        case 5:
+                            System.out.println("Введите полное имя автора в формате Фамилия И.О");
+                            String authorScan = forAuthor.nextLine();
+                            System.out.println(library.findBookByAuthor(authorScan));
+                            break;
+                        case 6:
+                            workInProgress = false;
+                            break;
                     }
+
+
                 }
             }
         }
     }
+}

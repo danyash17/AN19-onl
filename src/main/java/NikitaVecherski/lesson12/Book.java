@@ -9,13 +9,23 @@ package NikitaVecherski.lesson12;
 import java.util.Objects;
 import java.util.UUID;
 
-public class Book{
+public class Book {
 
-                                                         //Поля
+                                                            //Поля
+
     private String title;
     private String author;
     private Integer year;
     private String isbn;
+
+                                                        //Конструктор
+
+    public Book(String title, String author, Integer year) {
+        setTitle(title);
+        setAuthor(author);
+        setYear(year);
+        setIsbn();
+    }
 
                                                     //Геттеры-сеттеры
 
@@ -25,7 +35,8 @@ public class Book{
     }
 
     public void setIsbn() {
-        this.isbn = String.valueOf(UUID.randomUUID());;
+        this.isbn = String.valueOf(UUID.randomUUID());
+        ;
     }
 
     public String getTitle() {
@@ -52,17 +63,11 @@ public class Book{
         this.year = year;
     }
 
-                                                     //Конструктор
-    public Book(String title, String author, Integer year) {
-        setTitle(title);
-        setAuthor(author);
-        setYear(year);
-        setIsbn();
-    }
 
                                                         //Вывод
+
     public String toString() {
-        return ("\nНазвание книги: " + getTitle() + "\n За авторством: " + getAuthor() + "\n Код ISBN: "+ getIsbn() + "\n Год выпуска: " + getYear());
+        return ("\nНазвание книги: " + getTitle() + "\n За авторством: " + getAuthor() + "\n Код ISBN: " + getIsbn() + "\n Год выпуска: " + getYear());
     }
 
                                                     //Equals и hashCode

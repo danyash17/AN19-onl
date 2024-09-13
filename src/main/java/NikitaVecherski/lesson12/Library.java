@@ -9,6 +9,7 @@ package NikitaVecherski.lesson12;
 //listAllBooks(): вывод всех книг в библиотеке.
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -36,40 +37,46 @@ public class Library {
         }
     }
 
-    public void findBookByTitle(String title) {
+    public Book findBookByTitle(String title) {
         boolean checker = false;
+        Book thatOne = null;
         for (Book book : this.arrayList) {
             if (book.getTitle().equals(title)) {
                 checker = true;
-                System.out.println(book);
+                return book;
             }
 
         }
         if (checker == false) {
-           throw new NoSuchBookException();
+            throw new NoSuchBookException();
+
         }
+        return null;
     }
 
-    public void listAllBooks() {
-        Stream.of(arrayList).forEach(System.out::println);
+
+    public String listAllBooks() {
+        String a = Arrays.deepToString(Stream.of(arrayList).toArray());
+        return a;
     }
 
     public void addBooks(Book... books) {
         arrayList.addAll(List.of(books));
     }
 
-    public void findBookByAuthor(String author) {
+    public Book findBookByAuthor(String author) {
         boolean checker = false;
         for (Book book : this.arrayList) {
             if (book.getAuthor().equals(author)) {
                 checker = true;
-                System.out.println(book);
+                return book;
             }
 
         }
         if (checker == false) {
-            throw new  NoSuchBookException();
+            throw new NoSuchBookException();
         }
+        return null;
     }
 
 }
