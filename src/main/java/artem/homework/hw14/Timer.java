@@ -7,7 +7,7 @@ package artem.homework.hw14;
 //это сообщение должно быть последним сообщением программы.
 
 public class Timer {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Thread counterThread = new Thread(() -> {
             int count = 10;
             while (count >= 0) {
@@ -19,8 +19,9 @@ public class Timer {
                     e.printStackTrace();
                 }
             }
-            System.out.println("Расчет окончен");
         });
         counterThread.start();
+        counterThread.join();
+        System.out.println("Расчет окончен");
     }
 }
