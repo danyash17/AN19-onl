@@ -1,7 +1,6 @@
 package Alex_P.lesson12;
 
 import java.util.ArrayList;
-import java.util.SimpleTimeZone;
 
 public class Library {
     private ArrayList<Book> townLibrary = new ArrayList<>();
@@ -13,8 +12,9 @@ public class Library {
 
     public void removeBook(String isbn) throws NoBookException {
         for (Book book : this.townLibrary) {
-            if (book.getTitle() == isbn) {
+            if (book.getIsbn() == isbn) {
                 this.townLibrary.remove(book);
+                break;
             } else throw new NoBookException("Книга с такаим isbn отсутствует в библиотеке");
         }
     }
@@ -25,7 +25,7 @@ public class Library {
                 return book;
             } else throw new NoBookException("Книга с такаим названием отсутствует в библиотеке");
         }
-        return this.townLibrary.get(0);
+        return null;
     }
 
     public String listAllBooks() {
@@ -38,6 +38,6 @@ public class Library {
                 return book;
             } else throw new NoBookException("Книга с такаим автором отсутствует в библиотеке");
         }
-        return this.townLibrary.get(0);
+        return null;
     }
 }
